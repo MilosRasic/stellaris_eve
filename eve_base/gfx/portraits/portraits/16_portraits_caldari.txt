@@ -1,0 +1,119 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Caldari
+	deteis_female = {	entity = "portrait_human_female_04_entity"			clothes_selector = "mammalian_human_female_clothes_01" 	hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01"}
+	civire_female = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"}	
+
+	deteis_male = {	entity = "portrait_human_male_04_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "human_male_hair_04"	greeting_sound = "human_male_greetings_01" }
+	civire_male = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_04"	greeting_sound = "human_male_greetings_03" }
+}
+
+portrait_groups = {
+	caldari = {
+		default = deteis_female
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					deteis_male
+					civire_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					deteis_female
+					civire_female
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					deteis_female
+					civire_female
+					deteis_male
+					civire_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					deteis_female
+					civire_female
+					deteis_male
+					civire_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					deteis_female
+					civire_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					deteis_male
+					civire_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					deteis_female
+					civire_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					deteis_male
+					civire_male
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,227 @@
+# Materialist (No DLC)
+fallen_empire_1_1 = {
+	graphical_culture = "fallen_empire_02"
+	initializer = "fallen_1_1"
+	
+	possible = {
+		NOT = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	}
+	
+	create_country_effect = {
+		create_species = {
+			class = HUM
+			portrait = humanoid_03
+			name = "Jove"
+			plural = "Jovians"
+			adjective = "Jovian"
+			name_list = "jovian"
+			traits = {
+				trait = "trait_erudite"
+				trait = "trait_venerable"
+				trait = "trait_quick_learners"
+				trait = "trait_self_modified"
+				trait = "trait_repugnant"
+				trait = "trait_weak"
+				trait = "trait_slow_breeders"
+			}
+			extra_trait_points = 5
+			allow_negative_traits = yes
+		}
+
+		create_country = {
+			name = "Jove Empire"
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_oligarchic
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_materialist
+			}
+			flag = {
+				icon = {
+					category = "eve_online"
+					file = "jove.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"grey"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				set_country_flag = fallen_empire_1	
+				add_minerals = 10000
+				add_energy = 10000	
+				add_food = 1000
+				add_influence = 500
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Savant"
+				add_global_ship_design = "NAME_Scholar"
+				add_global_ship_design = "NAME_Sage"
+				add_global_ship_design = "NAME_Obscurer"
+				add_global_ship_design = "NAME_Cloaker"
+				add_global_ship_design = "NAME_Librarian"
+				add_global_ship_design = "NAME_Seeker"					
+			}
+		}
+	}
+}
+
+# Materialist (DLC)
+fallen_empire_1_2 = {
+	graphical_culture = "fallen_empire_02"
+	initializer = "fallen_1_2"
+	
+	possible = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+	}
+	
+	create_country_effect = {
+		create_species = {
+			class = HUM
+			portrait = humanoid_03
+			name = "Jove"
+			plural = "Jovians"
+			adjective = "Jovian"
+			name_list = "jovian"
+			traits = {
+				trait = "trait_erudite"
+				trait = "trait_venerable"
+				trait = "trait_quick_learners"
+				trait = "trait_self_modified"
+				trait = "trait_repugnant"
+				trait = "trait_weak"
+				trait = "trait_slow_breeders"
+			}
+			extra_trait_points = 5
+			allow_negative_traits = yes
+		}
+
+		create_country = {
+			name = "Jove Empire"
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_oligarchic
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_materialist
+			}
+			flag = {
+				icon = {
+					category = "eve_online"
+					file = "flag_eve_online_12.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"grey"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				set_country_flag = fallen_empire_1	
+				add_minerals = 10000
+				add_energy = 10000	
+				add_food = 1000
+				add_influence = 500
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Savant"
+				add_global_ship_design = "NAME_Scholar"
+				add_global_ship_design = "NAME_Sage"
+				add_global_ship_design = "NAME_Obscurer"
+				add_global_ship_design = "NAME_Cloaker"
+				add_global_ship_design = "NAME_Librarian"
+				add_global_ship_design = "NAME_Seeker"					
+			}
+		}
+	}
+}
+
+# Xenophobe
+fallen_empire_4 = {
+	graphical_culture = "fallen_empire_04"
+	initializer = "fallen_4"
+	
+	create_country_effect = {
+		create_species = {
+			class = HUM
+			portrait = humanoid_03
+			name = "Drifter"
+			plural = "Drifters"
+			adjective = "Drifter"
+			name_list = "drifter"
+			traits = {
+				trait = "trait_erudite"
+				trait = "trait_venerable"
+				trait = "trait_quick_learners"
+				trait = "trait_self_modified"
+				trait = "trait_cybernetic"
+				trait = "trait_repugnant"
+			}
+			extra_trait_points = 7
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = "Drifters"
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_imperial
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_xenophobe
+			}			
+			flag = {
+				icon = {
+					category = "ornate"
+					file = "flag_ornate_2.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				set_country_flag = fallen_empire_4
+				add_minerals = 10000
+				add_energy = 10000	
+				add_food = 1000
+				add_influence = 500						
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Imperium"
+				add_global_ship_design = "NAME_Supremacy"
+				add_global_ship_design = "NAME_Glory"
+				add_global_ship_design = "NAME_Reaper"
+				add_global_ship_design = "NAME_Devastator"
+				add_global_ship_design = "NAME_Servitor"
+				add_global_ship_design = "NAME_Destiny"					
+			}
+		}
+	}
+}

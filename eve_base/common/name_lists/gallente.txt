@@ -1,0 +1,198 @@
+gallente = {
+	### SHIPS
+	alias = "gallente"
+
+	ship_names = {
+		mining_station = {
+			sequential_name = "%O% Astral Mining Outpost"
+		}
+		research_station = {
+			sequential_name = "%O% Chemal Outpost"
+		}
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Fed. Navy Outpost"
+		}
+
+		military_station_small = { Astrahus }
+		military_station_medium = { Fortizar }
+		military_station_large = { Keepstar }
+	}
+
+	ship_class_names = {
+		corvette = {
+			Velator Incursus Tristan Atron Navitas Maulus Comet Taranis Ares Nemesis Ishkur Enyo Thalia Utu
+		}
+		
+		destroyer = {
+			Catalyst Algos Eris Magus Hecate
+		}
+		
+		cruiser = {
+			Thorax Vexor Exequror Celestis Ishtar Deimos Oneiros Arazu Lachesis Phobos Adrestia
+		}
+		
+		battleship = {
+			Dominix Hyperion Megathron Sin Kronos Thanatos Moros Ninazu Nyx Erebus Talos Brutix Myrmidon Eos Astarte
+		}
+		
+		science = {
+			Imicus Helios
+		}
+		
+		colonizer = {
+			Anshar
+		}
+		
+		constructor = {
+			Obelisk
+		}
+
+		transport = {
+			Nereus Miasmos Kryos Epithal Iteron Viator Occator
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Federation Navy Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			random_names = { "Condotta Rouvenor" "Edimmu Warfighters" "Namtar Elite" "Sinq Laison Gendarmes" "Villore Sec Ops"}
+			sequential_name = "%O% Federation Defense Force"
+		}
+			
+		assault_army = {
+			random_names = { "Algintal Core" "Chatelain Rapid Response" "Crux Special Tasks Group" "Kang Lo Directorate" "Mannar Focused Warfare" "Ostrakon Agency" }
+			sequential_name = "%O% Federal Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Volunteer Corps"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Federation Clone Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Federation Ground Drones"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Corps"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenohorde"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Federation Gene Corps"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Noya Malloc Tenet
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Corufeu Astrin "Gallente Prime" "Caldari Prime" "Tei-Su" "Ealur" "Mannar"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Groothese Conardier Asserens Sarante Coverie Cirgnard Losavale Fanalabbe Callere Mitresigier Blarlerrier Karcard Grinault Vralle Doritte Ossel Deremeur Mollin Aubalyu Pingeron Lausalle Assye Isaine Melever Guire Marisselle Charante Ardaggherier Assens Armouttaine Fayetesore Iliete Archerlaert Audasueur Jare Rellin Angher Wenarielves Vaysseyrcer Nanimout Afraustin Basteeles Rayle Aisnellina Albrey Ahrirlyne Attelle Dra Celync Aisnirault Schellan Audere Tragenire Charmes Scane Aloret Lirmarne Bles Egloennan Chamamere Algette Dauteau Arouckesin Dorne Ashtounelle Ardoroule Serdenoella Mouttolouis Tria Chore Evaux Duria Doolleernes Durastrand Audasueur Bloutte Manbier Mollarync Bivecon Pagemevel Debese Buene Failanard Brere Comergheem Riesves Rirsturiere Odeure Clel Ganouel Jobise Bresnync Clie Calloux Dhoyesechare Beet Maylilore Wemire Auzue Emmare Muync Abins Yvandele Bamon Diles Garlilis Albencyers Maillede Adeset Rilune Jouey Junnader Lean Ornargot Zobydene Etlain Gramaert Deuverin Ekare Coella Ghele Stranders Alleline Arnanbane Masoutte Bakkarault Asnia Arnetraert Rueminck Ognye Vleys Lagemorne Aldrawitte Aurme Kergagoncer Ciloroial Devalon Flogedine Euvon Ornel Estime Harc Docararde Avapanne Alpetane Malayme Vientes Aussa Losietes Alemel Arcent Carpon Albenide Obalanes Rias Audamia Ollon Arberner Jamaert Gaenloovitte Brubelle Lympia Piedie Hos Anzires Fofstalle Vitte Irlier Rorralachies Beborres Canisere Tranard Sorgard Bouscain Orsognave Tean Janyrance Tirfer Aernerault Mousore Anzalolie Calsesirier Halmante Oune Lalx Boulainose Memanoutte Andrie Alurel Aurriest Avynes Pallinoncher Aessen Mivent Ostailitte Dalle Lalie Cholle Challet Cloic Ayse Armaine Andt Vydreris Boulbrens Hompserain Gictes Ancye Olanne Jorerout Zanisale Maulckaert Osmarbon Starella Eloede Anchave Alocenet Blalt Poucke Omesere Stans Indt Saralle Gererique Zwendt Pomouber Anteson Sunnac Oribelon Esate Molilier Ormalon Menivare Annaire Bustene Bique Rarcannync Essana Etoure Flelirrere Gerner Olain Gitille Miere Arnanthyn Yvarie Lancis Ghyrlelle Tourtli Plachotte Adens Agattault Jannanette Dyettilda Ignaman Essarette Motain Redmereau Anchel Octiclene Wedrel Oilja Mataria Absaned Attek Armotte Leigukelm Fusbenne Chattinck Benvodis Avoralie Autlue Allolins Aubulle Geripiette Gidrine Timsieuwe Doufecteau Cosson Espirose Chamaert Agrelins Heneque Amytier Suisonakka Dach Annel Bomerin Idomon Wlfreier Ohtrik Meugenlieu Etymet Armirrot Micoreullon Pilbralie Andiksdagber Chigas Niviler Ogena Poillin Bouey Andarane Yvesque Armailitte Ekorecke Ivonalle
+			}
+
+			regnal_first_names_male = {
+				Groothese Conardier Asserens Sarante Coverie Cirgnard Losavale Fanalabbe Callere Mitresigier Blarlerrier Karcard Grinault Vralle Doritte Ossel Deremeur Mollin Aubalyu Pingeron Lausalle Assye Isaine Melever Guire Marisselle Charante Ardaggherier Assens Armouttaine Fayetesore Iliete Archerlaert Audasueur Jare Rellin Angher Wenarielves Vaysseyrcer Nanimout Afraustin Basteeles Rayle Aisnellina Albrey Ahrirlyne Attelle Dra Celync Aisnirault Schellan Audere Tragenire Charmes Scane Aloret Lirmarne Bles Egloennan Chamamere Algette Dauteau Arouckesin Dorne Ashtounelle Ardoroule Serdenoella Mouttolouis Tria Chore Evaux Duria Doolleernes Durastrand Audasueur Bloutte Manbier Mollarync Bivecon Pagemevel Debese Buene Failanard Brere Comergheem Riesves Rirsturiere Odeure Clel Ganouel Jobise Bresnync Clie Calloux Dhoyesechare Beet Maylilore Wemire Auzue Emmare Muync Abins Yvandele Bamon Diles Garlilis Albencyers Maillede Adeset Rilune Jouey Junnader Lean Ornargot Zobydene Etlain Gramaert Deuverin Ekare Coella Ghele Stranders Alleline Arnanbane Masoutte Bakkarault Asnia Arnetraert Rueminck Ognye Vleys Lagemorne Aldrawitte Aurme Kergagoncer Ciloroial Devalon Flogedine Euvon Ornel Estime Harc Docararde Avapanne Alpetane Malayme Vientes Aussa Losietes Alemel Arcent Carpon Albenide Obalanes Rias Audamia Ollon Arberner Jamaert Gaenloovitte Brubelle Lympia Piedie Hos Anzires Fofstalle Vitte Irlier Rorralachies Beborres Canisere Tranard Sorgard Bouscain Orsognave Tean Janyrance Tirfer Aernerault Mousore Anzalolie Calsesirier Halmante Oune Lalx Boulainose Memanoutte Andrie Alurel Aurriest Avynes Pallinoncher Aessen Mivent Ostailitte Dalle Lalie Cholle Challet Cloic Ayse Armaine Andt Vydreris Boulbrens Hompserain Gictes Ancye Olanne Jorerout Zanisale Maulckaert Osmarbon Starella Eloede Anchave Alocenet Blalt Poucke Omesere Stans Indt Saralle Gererique Zwendt Pomouber Anteson Sunnac Oribelon Esate Molilier Ormalon Menivare Annaire Bustene Bique Rarcannync Essana Etoure Flelirrere Gerner Olain Gitille Miere Arnanthyn Yvarie Lancis Ghyrlelle Tourtli Plachotte Adens Agattault Jannanette Dyettilda Ignaman Essarette Motain Redmereau Anchel Octiclene Wedrel Oilja Mataria Absaned Attek Armotte Leigukelm Fusbenne Chattinck Benvodis Avoralie Autlue Allolins Aubulle Geripiette Gidrine Timsieuwe Doufecteau Cosson Espirose Chamaert Agrelins Heneque Amytier Suisonakka Dach Annel Bomerin Idomon Wlfreier Ohtrik Meugenlieu Etymet Armirrot Micoreullon Pilbralie Andiksdagber Chigas Niviler Ogena Poillin Bouey Andarane Yvesque Armailitte Ekorecke Ivonalle
+			}
+
+			first_names_female = {
+				Yvosenne Ossel Ayst Esseraulin Ambetter Blune Orviddore Beunsteste Ekorecke Ergre Outtel Eule Brurphenber Anvent Atsy Pormaines Agrite Yveche Rougnyes Vancent Meurch Tameroy Emmette Adrey Baspament Saonellieu Avovence Emmette Herrent Auralle Odairgilen Challelle Hootant Eustron Cournouts Ghele Lympia Gille Juttarnard Warts Wasteronne Votane Dau Couvette Fonseric Heillaert Mottin Gaerooman Trormare Creltenier Ossches Rouland Stie Bruune Adier Helle Aernelaert Comparaert Ostes Cocier Vriessche Waldrell Abuette Anguraere Berlimaute Emmare Grinarel Dhoorcare Reschard Aydoteaux Ainuregt Ivoncane Coommarecque Asselagne Cooctenuton Archeralle Zalloronde Rhin Claulanghe Audaille Vionnoreau Afour Ommore Farmes Alins Scourt Cryrcier Aussent Ygemette Cherbanye Bessoteaux Derdianne Lefroxalier Mermene Caramel Monave Sarluhevier Kaspant Traude Fruynghermant Janninck Grateldale Thormonnie Estorand Ains Bardoen Veur Gheretins Orsetta Clel Tyl Yvaviene Pocriere Plandolis Vloert Autes Isaugnedan Masalle Aunes Orlevreze Avocones Harcarin Afrincon Pant Mastance Apouttemes Bourgyes Ilcke Jamaert Ogne Honnolia Bietinievres Cohemitte Sansallelle Auretins Esseraimer Doullenne Pessoen Aiges Pecsins Achoure Guilin Ophaghener Aulleem Allilieres Aboy Moveval Antree Aymaloyal Alpicard Ameron Anzattune Jabbepin Mavrotta Gifrelebier Gaunia Alisson Eburch Reysetouttes Afdier Artenne Hedoubel Cooleemina Chostins Bedepant Pongheronne Ytee Estre Mammon Alhot Brorsch Ambelane Cylelle Alserore Havrylallin Rilz Lenia Oirlair Aleyvriman Agrelieres Ruborraude Lugerer Aufay Wyrocque Araverie Locherghen Eys Iverie Gie Gaecoudel Loillaintes Rosane Anwyns Avoler Widier Ongve Bourens Olarault Vivarie Goivin Govrercard Crucarne Echibaver Clos Almie Ausmaert Asmier Roubuenet Fengaralle Romene Gayle Dhoorcare Quesne Durlanveyne Abin Misouvon Egheyns Blies Atlycet Varsters Ophelame Cauvers Nulia Agrenienes Garecque Austant Auzue Huvertet Muvinare Plose Wadis Duhotolie Bay Hampuere Astoirron Ayne Patier Vlalesette Loot Pocrel Larsch Awel Aurelie Atlay Houruene Omune Brinalle Alync Buroghe Iluelle Helbrorand Aidarard Destaseke Pillius Anges Railbeuse Thirtirare Stasylace Setiges Amerique Lalie Sois Zanere Reynon Ghonvet Municlune Alebeke Odencia Mallon Sirmiene Bram Auvy Wins Eydre Anzillaques Allain Arberine Balmires Dosson Derraucet Mante Ayng Harlania Amuene Aloongeves Aveau Gotan Mizuro Yifan Molleur Oluchilan Jammalgen Ardalainer Wimander Alenour Hoostemiron Vepithou Anais Aspant Fluekele Buin Elacan Ivorchaert Sogeria Railloux Ailer Arnanare Vediere Rourts Edmanan Wissier Indregulle Ancemel Antonede Visatoh Immarenen Boutte Bavilen Gufrolf Koikoriki Blolilan Groelande Anchauttes Daduner Detere Ainoutte Sirlorette Luratene Amidier Wrezere Roire Gerskur Liatter Apenette Gian Anseneque Pilotte Bedavardt
+			}
+
+			regnal_first_names_female = {
+				Yvosenne Ossel Ayst Esseraulin Ambetter Blune Orviddore Beunsteste Ekorecke Ergre Outtel Eule Brurphenber Anvent Atsy Pormaines Agrite Yveche Rougnyes Vancent Meurch Tameroy Emmette Adrey Baspament Saonellieu Avovence Emmette Herrent Auralle Odairgilen Challelle Hootant Eustron Cournouts Ghele Lympia Gille Juttarnard Warts Wasteronne Votane Dau Couvette Fonseric Heillaert Mottin Gaerooman Trormare Creltenier Ossches Rouland Stie Bruune Adier Helle Aernelaert Comparaert Ostes Cocier Vriessche Waldrell Abuette Anguraere Berlimaute Emmare Grinarel Dhoorcare Reschard Aydoteaux Ainuregt Ivoncane Coommarecque Asselagne Cooctenuton Archeralle Zalloronde Rhin Claulanghe Audaille Vionnoreau Afour Ommore Farmes Alins Scourt Cryrcier Aussent Ygemette Cherbanye Bessoteaux Derdianne Lefroxalier Mermene Caramel Monave Sarluhevier Kaspant Traude Fruynghermant Janninck Grateldale Thormonnie Estorand Ains Bardoen Veur Gheretins Orsetta Clel Tyl Yvaviene Pocriere Plandolis Vloert Autes Isaugnedan Masalle Aunes Orlevreze Avocones Harcarin Afrincon Pant Mastance Apouttemes Bourgyes Ilcke Jamaert Ogne Honnolia Bietinievres Cohemitte Sansallelle Auretins Esseraimer Doullenne Pessoen Aiges Pecsins Achoure Guilin Ophaghener Aulleem Allilieres Aboy Moveval Antree Aymaloyal Alpicard Ameron Anzattune Jabbepin Mavrotta Gifrelebier Gaunia Alisson Eburch Reysetouttes Afdier Artenne Hedoubel Cooleemina Chostins Bedepant Pongheronne Ytee Estre Mammon Alhot Brorsch Ambelane Cylelle Alserore Havrylallin Rilz Lenia Oirlair Aleyvriman Agrelieres Ruborraude Lugerer Aufay Wyrocque Araverie Locherghen Eys Iverie Gie Gaecoudel Loillaintes Rosane Anwyns Avoler Widier Ongve Bourens Olarault Vivarie Goivin Govrercard Crucarne Echibaver Clos Almie Ausmaert Asmier Roubuenet Fengaralle Romene Gayle Dhoorcare Quesne Durlanveyne Abin Misouvon Egheyns Blies Atlycet Varsters Ophelame Cauvers Nulia Agrenienes Garecque Austant Auzue Huvertet Muvinare Plose Wadis Duhotolie Bay Hampuere Astoirron Ayne Patier Vlalesette Loot Pocrel Larsch Awel Aurelie Atlay Houruene Omune Brinalle Alync Buroghe Iluelle Helbrorand Aidarard Destaseke Pillius Anges Railbeuse Thirtirare Stasylace Setiges Amerique Lalie Sois Zanere Reynon Ghonvet Municlune Alebeke Odencia Mallon Sirmiene Bram Auvy Wins Eydre Anzillaques Allain Arberine Balmires Dosson Derraucet Mante Ayng Harlania Amuene Aloongeves Aveau Gotan Mizuro Yifan Molleur Oluchilan Jammalgen Ardalainer Wimander Alenour Hoostemiron Vepithou Anais Aspant Fluekele Buin Elacan Ivorchaert Sogeria Railloux Ailer Arnanare Vediere Rourts Edmanan Wissier Indregulle Ancemel Antonede Visatoh Immarenen Boutte Bavilen Gufrolf Koikoriki Blolilan Groelande Anchauttes Daduner Detere Ainoutte Sirlorette Luratene Amidier Wrezere Roire Gerskur Liatter Apenette Gian Anseneque Pilotte Bedavardt
+			}
+
+			second_names = {
+				Larloolis Avarter Cymerouf Alaenzaner Nimestre Amere Allomieves Teille Destroodt Odoulreles Ygymet Girles Giralle Anchallarie Vaydaerer Maittintes Molon Ellienne Amattens Pielevieve Arrion Odrel Loict Averasin Cique Allmon Folnempanne Eloittechon Ysone Fleunove Vysscheles Sybbolia Oryerchiron Amanckbraert Falloullon Arnancere Drye Olediart Cletrullier Lola Oenync Bengot Alsenoge Orvavaerer Fenere Aunnoi Mandie Dorompiere Municlune Deusserunes Algindole Geoneymene Letta Memana Gaudent Rorcires Algesoire Dastrecal Essytace Deona Eloede Thilpanorcer Olelie Alemens Fayet Ophene Motheluse Vanisson Miroodt Apouttemes Janydens Aboleur Echibaver Essoule Oguere Rolloure Olair Auldier Diere Searavrette Audarne Muelsouranne Cachtenaude Azyne Dhooris Daustraert Ondree Eyghelet Oslie Dullaerdt Dire Antrye Jucieves Stienne Issie Enore Encke Andomel Roon Pinssier Ancbeu Zoenceliris Riesves Alottins Anzete Losschyve Audanolle Bous Avere Cren Layn Yoladent Ambetyn Heiles Arnon Ekaeroose Esmoreures Edmiculle Toubaison Neylloullon Palinard Orsanere Viridette Groelande Relisiertan Essyn Besches Joghorare Viuep Porelotta Lalolles Pelbelion Chevre Lellevoire Meere Brullaert Aymynouel Ansotte Fouil Ottin Meniger Pron Trillicon Albyne Aymevins Albuerges Doi Bengot Pitendthompin Gaenloovitte Ophone Allougles Duster Yrca Ekingare Houvers Ellettilier Baine Asant Denvonne Tourtli Zarraert Trayn Aineveu Odainnelet Enalalon Wirtnard Lartalle Async Arnustene Colockes Groo Ommenne Alecarel Anste Dustalon Riggheriene Roghewer Stontroller Lefanivel Cavalnaert Seinaesen Boin Bette Pamovais Claynins Jayet Boricon Hordane Ivonis Estibane Aurlaerdt Elaert Apant Alariese Venbaert Artave Chatanede Lexmoreau Esmallon Syctonerier Amiette Speedele Sladams Bappitler Lylouron Osel Gelloure Bempiery Thyneger Granughe Wireruet Pepin Ghynosseil Presetin Ambrette Isolette Amailly Walulle Diololle Apere Charloller Roella Benic Angamuere Enoit Ilatove Hueset Arle Arbone Yvese Aurot Elfin Larlelie Nobariene Seillaerdt Crucarne Fene Lonraires Annins Manc Jootan Aylle Stroure Angenaules Ommasterye Rulaert Ogorard Waungvande Amie Patsectiers Chetirgrullin Grinarel Wousterier Varaert Ovaert Achtan Annins Amoen Alleron Ladistier Ravacesel Crecetins Blayme Ivier Brevier Atleraetan Ahreres Bouil Auroulde Monatave Merrore Ophilamon Polirine Brelerc Essoennan Carlery Pernaeneve Dusselitte Symnes Sancenard Symanche Atrync Lallerordon Clear Aernanaert Burlaert Houfriellan Evacone Nobreler Lasnovins Erdia Allelluc Ambramotte Dermier Hovrelaert Octeyncaere Ambertin Edmerent Vioncheriler Esalion Lornache Alelyncke Jolloge Eldiart Zuler Couster Preldent Than Crens Cronart Wiranstoure Gaenloovitte Flor Camena Agerin Ponebins Eullaerdt Ignoure Denvonne Onck Rost Fomtelot Ardarette Ilerie Lean Sloure Luisauir Allelery Bourgaredyn Eurt Annaschaert Geditte Arroy Dumes Elgent Gouc Argre Eyghelet Ameurthe Wey Demette Hurrimoult Badeneque Hessieuwe Oisiree Annacel Chaffryriene Inier Alate Kersolis Camenlieu Osmagne Vilinnon Mounch Leonavor Henoiltet Alloviene Afriraurer Apamoote Houviron Thoun Arnoche Caullon Ynck Bougnisarin Abene Vayle Caroivrin Aques Bappenalle Reyrlouttes Parmedent Ancellare Ambiertes Erme Asselle Essarette Boingaroix Kelaeys Aires Rollorotte Ainou Amanan Soil Veffort Porolbier Odeune Fircal Noise Avanevon Ardonsele Baver Rurmonlieu Delleliot Aciane Olain Gelluire Kole Harere Ancille Gastomitte Ashtolairer Groelande Belagers Audre Alenille Atlulle Ogoure Braire Eppied Indritte Turavanon Ardelooris Atlolas Iques Vrierbins Atte Marnelelle Herene Gillahuene Aleyde Aubalin Ossche Henneque Bris Keirevardt Avais Holle Zumpbaerse Lyndroutte Archeralle Lange Estisen Egghonelle Cherore Enins Oraneles Chene Grasternes Wicilla Baul Ambrea Carrenner Prerie Eyron Vocque Astyroure Aunon Virrelina Ornargot Reysetouttes Braut Impsie Emmalaute Alakaert Ambekel Vienlomandie Orvinelle Arnelon Arand Mocaraille Appoi Rilleririan Ourd Noutte Oraveval Gaunellieu Callor Aimeguier Vanaillot Oloque Segengiere Achatin Zertavenne Mammon Opheles Douls Vyrier Soeillindre Brinalle Eyl Allettine Ambesene Ranchel Mostetaux Grinacanne Binck Hustiquier Daneque Gien Jostalie Thilriegitte Orsane Aleau Oflia Aertan Aret Detere Darelimes Hualeritte Crue Edmelles Chaere Enault Lhuillorelle Searbene Ahrasire Bambelard Agraton Oustrain Inghetoirin Balelle Bubadairpes Charteau Claussesnard Aurtin Vynneve Aurch Aydeguier Allever Hanoure Ayls Falet Arnanotte Azomiese Chrisnelleur Gerleset Brunalle Isoulphinan Artenne Angidina Agrelins Amailly Ekay Espire Tesschye Juttotier Pawel Armand Mollalier Ambelane Datchenese Jaelaerdt Lanenier Sinille Kreiss Strollant Cybon Aljus Sabiva Ekta Delmeranten Vlecht Rekurdan Gemarche Upat Geridal Eurkulf Begninck Iddold Akosmoud Allane Attens Lalycer Androy Bekkyere Montvlyrtier Sairuttire Arrodet Archyrseult Artalin Cente Brawette Ronchelin Dissel Odalanne Sougnieurck Ergiers Slassulle Saonellympe Heydieles Weyllaenalle Pettinck Amarancke Andreditte Anchel Baider Lanercheve Vattaux Isschau Mabenere Oillard Odene Baliaerdt Mornodire Alst Lallateblan Okilen Jarathofa Iepi Aiga Kjaend Anteres Isolette Otnen Ongrold Energur Kheen Wibrahard Omae Assochaere Erckee Cleyn Lede Aesen Tayllanch Zanisale Oursinault Ouellelle Edmoure Ingheroule Ponchiette Mivellaers Aubonard Ramme Aloutte Kademulf Pomari Astaran Hrinz Out Ignerotta Eldrek Cadelanne Sadereron Ringilaille Gronssyn Rouppon Ermagne Alonckbraert Anchauttes Galelare Hourille Cadie
+			}
+
+			regnal_second_names = {
+				Larloolis Avarter Cymerouf Alaenzaner Nimestre Amere Allomieves Teille Destroodt Odoulreles Ygymet Girles Giralle Anchallarie Vaydaerer Maittintes Molon Ellienne Amattens Pielevieve Arrion Odrel Loict Averasin Cique Allmon Folnempanne Eloittechon Ysone Fleunove Vysscheles Sybbolia Oryerchiron Amanckbraert Falloullon Arnancere Drye Olediart Cletrullier Lola Oenync Bengot Alsenoge Orvavaerer Fenere Aunnoi Mandie Dorompiere Municlune Deusserunes Algindole Geoneymene Letta Memana Gaudent Rorcires Algesoire Dastrecal Essytace Deona Eloede Thilpanorcer Olelie Alemens Fayet Ophene Motheluse Vanisson Miroodt Apouttemes Janydens Aboleur Echibaver Essoule Oguere Rolloure Olair Auldier Diere Searavrette Audarne Muelsouranne Cachtenaude Azyne Dhooris Daustraert Ondree Eyghelet Oslie Dullaerdt Dire Antrye Jucieves Stienne Issie Enore Encke Andomel Roon Pinssier Ancbeu Zoenceliris Riesves Alottins Anzete Losschyve Audanolle Bous Avere Cren Layn Yoladent Ambetyn Heiles Arnon Ekaeroose Esmoreures Edmiculle Toubaison Neylloullon Palinard Orsanere Viridette Groelande Relisiertan Essyn Besches Joghorare Viuep Porelotta Lalolles Pelbelion Chevre Lellevoire Meere Brullaert Aymynouel Ansotte Fouil Ottin Meniger Pron Trillicon Albyne Aymevins Albuerges Doi Bengot Pitendthompin Gaenloovitte Ophone Allougles Duster Yrca Ekingare Houvers Ellettilier Baine Asant Denvonne Tourtli Zarraert Trayn Aineveu Odainnelet Enalalon Wirtnard Lartalle Async Arnustene Colockes Groo Ommenne Alecarel Anste Dustalon Riggheriene Roghewer Stontroller Lefanivel Cavalnaert Seinaesen Boin Bette Pamovais Claynins Jayet Boricon Hordane Ivonis Estibane Aurlaerdt Elaert Apant Alariese Venbaert Artave Chatanede Lexmoreau Esmallon Syctonerier Amiette Speedele Sladams Bappitler Lylouron Osel Gelloure Bempiery Thyneger Granughe Wireruet Pepin Ghynosseil Presetin Ambrette Isolette Amailly Walulle Diololle Apere Charloller Roella Benic Angamuere Enoit Ilatove Hueset Arle Arbone Yvese Aurot Elfin Larlelie Nobariene Seillaerdt Crucarne Fene Lonraires Annins Manc Jootan Aylle Stroure Angenaules Ommasterye Rulaert Ogorard Waungvande Amie Patsectiers Chetirgrullin Grinarel Wousterier Varaert Ovaert Achtan Annins Amoen Alleron Ladistier Ravacesel Crecetins Blayme Ivier Brevier Atleraetan Ahreres Bouil Auroulde Monatave Merrore Ophilamon Polirine Brelerc Essoennan Carlery Pernaeneve Dusselitte Symnes Sancenard Symanche Atrync Lallerordon Clear Aernanaert Burlaert Houfriellan Evacone Nobreler Lasnovins Erdia Allelluc Ambramotte Dermier Hovrelaert Octeyncaere Ambertin Edmerent Vioncheriler Esalion Lornache Alelyncke Jolloge Eldiart Zuler Couster Preldent Than Crens Cronart Wiranstoure Gaenloovitte Flor Camena Agerin Ponebins Eullaerdt Ignoure Denvonne Onck Rost Fomtelot Ardarette Ilerie Lean Sloure Luisauir Allelery Bourgaredyn Eurt Annaschaert Geditte Arroy Dumes Elgent Gouc Argre Eyghelet Ameurthe Wey Demette Hurrimoult Badeneque Hessieuwe Oisiree Annacel Chaffryriene Inier Alate Kersolis Camenlieu Osmagne Vilinnon Mounch Leonavor Henoiltet Alloviene Afriraurer Apamoote Houviron Thoun Arnoche Caullon Ynck Bougnisarin Abene Vayle Caroivrin Aques Bappenalle Reyrlouttes Parmedent Ancellare Ambiertes Erme Asselle Essarette Boingaroix Kelaeys Aires Rollorotte Ainou Amanan Soil Veffort Porolbier Odeune Fircal Noise Avanevon Ardonsele Baver Rurmonlieu Delleliot Aciane Olain Gelluire Kole Harere Ancille Gastomitte Ashtolairer Groelande Belagers Audre Alenille Atlulle Ogoure Braire Eppied Indritte Turavanon Ardelooris Atlolas Iques Vrierbins Atte Marnelelle Herene Gillahuene Aleyde Aubalin Ossche Henneque Bris Keirevardt Avais Holle Zumpbaerse Lyndroutte Archeralle Lange Estisen Egghonelle Cherore Enins Oraneles Chene Grasternes Wicilla Baul Ambrea Carrenner Prerie Eyron Vocque Astyroure Aunon Virrelina Ornargot Reysetouttes Braut Impsie Emmalaute Alakaert Ambekel Vienlomandie Orvinelle Arnelon Arand Mocaraille Appoi Rilleririan Ourd Noutte Oraveval Gaunellieu Callor Aimeguier Vanaillot Oloque Segengiere Achatin Zertavenne Mammon Opheles Douls Vyrier Soeillindre Brinalle Eyl Allettine Ambesene Ranchel Mostetaux Grinacanne Binck Hustiquier Daneque Gien Jostalie Thilriegitte Orsane Aleau Oflia Aertan Aret Detere Darelimes Hualeritte Crue Edmelles Chaere Enault Lhuillorelle Searbene Ahrasire Bambelard Agraton Oustrain Inghetoirin Balelle Bubadairpes Charteau Claussesnard Aurtin Vynneve Aurch Aydeguier Allever Hanoure Ayls Falet Arnanotte Azomiese Chrisnelleur Gerleset Brunalle Isoulphinan Artenne Angidina Agrelins Amailly Ekay Espire Tesschye Juttotier Pawel Armand Mollalier Ambelane Datchenese Jaelaerdt Lanenier Sinille Kreiss Strollant Cybon Aljus Sabiva Ekta Delmeranten Vlecht Rekurdan Gemarche Upat Geridal Eurkulf Begninck Iddold Akosmoud Allane Attens Lalycer Androy Bekkyere Montvlyrtier Sairuttire Arrodet Archyrseult Artalin Cente Brawette Ronchelin Dissel Odalanne Sougnieurck Ergiers Slassulle Saonellympe Heydieles Weyllaenalle Pettinck Amarancke Andreditte Anchel Baider Lanercheve Vattaux Isschau Mabenere Oillard Odene Baliaerdt Mornodire Alst Lallateblan Okilen Jarathofa Iepi Aiga Kjaend Anteres Isolette Otnen Ongrold Energur Kheen Wibrahard Omae Assochaere Erckee Cleyn Lede Aesen Tayllanch Zanisale Oursinault Ouellelle Edmoure Ingheroule Ponchiette Mivellaers Aubonard Ramme Aloutte Kademulf Pomari Astaran Hrinz Out Ignerotta Eldrek Cadelanne Sadereron Ringilaille Gronssyn Rouppon Ermagne Alonckbraert Anchauttes Galelare Hourille Cadie
+			}
+		}
+	}
+}

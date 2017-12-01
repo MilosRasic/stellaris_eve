@@ -1,0 +1,698 @@
+@base_moon_distance = 10
+
+pator_system_initializer = {
+	name = "Pator"
+	
+	class = "sc_k"
+	asteroids_distance = { min = 100 max = 200 }
+
+	usage = custom_empire
+
+	planet = {
+		name = "Pator"
+		class = "pc_k_star"
+		orbit_distance = 0
+		size = 5
+	}
+	
+	planet = {
+		name = "Istinn"
+		class = "pc_molten"
+		orbit_distance = 14
+		size = 8
+		has_ring = no
+		flags = { named_planet }
+	}
+	
+	planet = {
+		name = "Belogor"
+		class = "pc_barren"
+		orbit_distance = 13
+		size = 14
+		has_ring = no
+		flags = { named_planet }
+	}
+	
+	planet = {
+		name = "Huggar"
+		class = "pc_continental"
+		orbit_distance = 32
+		size = 24
+		has_ring = no
+		flags = { named_planet }
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 2
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Matar"
+		class = "pc_continental"
+		orbit_distance = 32
+		size = 13
+		has_ring = yes
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		flags = { named_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "lush_planet"
+				days = -1
+			}
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		init_effect = {
+			generate_start_buildings_and_blockers = yes
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Vakir"
+		class = "pc_toxic"
+		orbit_distance = 104
+		size = 34
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Varkal"
+		class = "pc_barren"
+		orbit_distance = 32
+		size = 14
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Kulheim"
+		class = "pc_barren"
+		orbit_distance = 44
+		size = 34
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Orinn"
+		class = "pc_toxic"
+		orbit_distance = 119
+		size = 32
+		has_ring = no
+		flags = { named_planet }
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Syld"
+		class = "pc_ocean"
+		orbit_distance = 79
+		size = 10
+		has_ring = no
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "natural_beauty"
+				days = -1
+			}
+		}
+	}
+}
+
+caldari_system_initializer = {
+	name = "New Caldari"
+	
+	class = "sc_g"
+	asteroids_distance = { min = 100 max = 200 }
+
+	usage = custom_empire
+
+	planet = {
+		name = "New Caldari"
+		class = "pc_g_star"
+		orbit_distance = 0
+		size = 5
+	}
+	
+	planet = {
+		name = "Matigu"
+		class = "pc_ocean"
+		orbit_distance = 29
+		size = 12
+		has_ring = no
+		flags = { named_planet }
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Matias"
+		class = "pc_continental"
+		orbit_distance = 31
+		size = 18
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Orieku"
+		class = "pc_barren"
+		orbit_distance = 36
+		size = 22
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "New Caldari Prime"
+		class = "pc_continental"
+		orbit_distance = 36
+		size = 55
+		has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		flags = { named_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+
+		init_effect = {
+			generate_start_buildings_and_blockers = yes
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Oniteseru"
+		class = "pc_continental"
+		orbit_distance = 107
+		size = 25
+		has_ring = no
+		flags = { named_planet }
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+}
+
+luminaire_system_initializer = {
+	name = "Luminaire"
+	
+	class = "sc_m"
+	asteroids_distance = { min = 100 max = 200 }
+
+	usage = custom_empire
+
+	planet = {
+		name = "Luminaire"
+		class = "pc_m_star"
+		orbit_distance = 0
+		size = 11
+	}
+	
+	planet = {
+		name = "Noya"
+		class = "pc_barren"
+		orbit_distance = 18
+		size = 16
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Corufeu"
+		class = "pc_continental"
+		orbit_distance = 24
+		size = 17
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 5
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Astrin"
+		class = "pc_continental"
+		orbit_distance = 25
+		size = 17
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 5
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Malloc"
+		class = "pc_barren"
+		orbit_distance = 26
+		size = 21
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit =5
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		name = "Tanet"
+		class = "pc_barren"
+		orbit_distance = 33
+		size = 45
+		has_ring = no
+		flags = { named_planet }
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 2
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Gallente Prime"
+		class = "pc_continental"
+		orbit_distance = 67
+		size = 155
+		has_ring = yes
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		flags = { named_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+			generate_start_buildings_and_blockers = yes
+			add_modifier = {
+				modifier = "extensive_moon_system"
+				days = -1
+			}
+		}
+
+		change_orbit = 30
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Caldari Prime"
+		class = "pc_continental"
+		orbit_distance = 107
+		size = 124
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "extensive_moon_system"
+				days = -1
+			}
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 25
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Ortange"
+		class = "pc_frozen"
+		orbit_distance = 99
+		size = 32
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+}
+
+amarr_system_initializer = {
+	name = "Amarr"
+	
+	class = "sc_k"
+	asteroids_distance = { min = 100 max = 200 }
+
+	usage = custom_empire
+
+	planet = {
+		name = "Amarr"
+		class = "pc_k_star"
+		orbit_distance = 0
+		size = 13
+	}
+	
+	planet = {
+		name = "Mikew"
+		class = "pc_toxic"
+		orbit_distance = 10
+		size = 9
+		has_ring = no
+		flags = { named_planet }
+	}
+	
+	planet = {
+		name = "Mikeb"
+		class = "pc_barren"
+		orbit_distance = 8
+		size = 8
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Amarr Prime"
+		class = "pc_continental"
+		orbit_distance = 16
+		size = 15
+		has_ring = yes
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		flags = { named_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+			generate_start_buildings_and_blockers = yes
+		}
+	}
+	
+	planet = {
+		name = "Tamiroth"
+		class = "pc_ocean"
+		orbit_distance = 21
+		size = 17
+		has_ring = yes
+		flags = { named_planet }
+ 
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Sek"
+		class = "pc_barren"
+		orbit_distance = 25
+		size = 26
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 1
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Zorast"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		size = 59
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 25
+
+		moon = {
+			count = 2
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Nemantizor"
+		class = "pc_toxic"
+		orbit_distance = 160
+		size = 32
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Oris"
+		class = "pc_continental"
+		orbit_distance = 84
+		size = 196
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "extensive_moon_system"
+				days = -1
+			}
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 30
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+
+	planet = {
+		name = "Derdainys"
+		class = "pc_gas_giant"
+		orbit_distance = 173
+		size = 75
+		has_ring = yes
+		flags = { named_planet }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "extensive_moon_system"
+				days = -1
+			}
+			add_modifier = {
+				modifier = "asteroid_belt"
+				days = -1
+			}
+		}
+
+		change_orbit = 25
+
+		moon = {
+			count = 3
+			orbit_distance = 5
+		}
+	}
+}
+
+special_init_03 = {}
+
+special_init_04 = {}

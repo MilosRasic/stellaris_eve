@@ -1,0 +1,189 @@
+nikunni = {
+	### SHIPS
+	alias = "nikunni"
+
+	ship_names = {
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = { }
+
+		military_station_small = { Astrahus }
+		military_station_medium = { Fortizar }
+		military_station_large = { Keepstar }
+	}
+
+	ship_class_names = {
+		corvette = {
+			Impairor Punisher Executioner Tormentor Inquisitor Crucifier Slicer Crusader Malediction Vengeance Retribution Purifier Deacon Sentinel Malice
+		}
+		
+		destroyer = {
+			Coercer Dragoon Heretic Pontifex Confessor
+		}
+		
+		cruiser = {
+			Omen Maller Augoror Arbitrator Zealot Sacrilege Guardian Pilgrim Curse Devoter Vangel
+		}
+		
+		battleship = {
+			Armageddon Abaddon Apocalypse Redeemer Paladin Archon Revelation Apostle Aeon Avatar Oracle Harbinger Prophecy Absolution Damnation
+		}
+		
+		science = {
+			Magnate Anathema
+		}
+		
+		colonizer = {
+			Ark
+		}
+		
+		constructor = {
+			Providence
+		}
+
+		transport = {
+			Bestower Sigil Prorator Impel
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Defense Force"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Troops"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Ground Drones"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Corps"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenohorde"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Corps"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Mishi
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Igu Bona Artimielia Samak Artamya Yanoyal Shanyi Nardir Sezeni Ezal Puhtesh Shabiri Dekrata Subomous Sigathim Atoram Pintat Landhya Loranan Sanasna Baala Mood Hecala Tehi Netzang Yalka Osas Naz Norma Mafsizan Petashih Arthal Maeemlie Ohrof Brara Ravya Aslech Hahin Talidal Arheh Habi Onpi Shakah Falian Ahayen Abendebi Ahroun Nazed Tokodan Ayoo Ihrda Edel Lahnina Shimu Aulem Zigh Arpah Nag Meni Sirita Kainkan Sannisu Dayera Nada Chaiga Zanes Yapera Ananya Orda Omdan Ajayi Zalemad Tim Djabak Sapi Nehrnah Diada Natousha Sehrbi Yerora Ansan Mankoor Lobrup Bouras Molnahr Hemigh Kazama Gakhireh Pareh Makaser Nussend Ahan Bairshir Bidelcher Fuli Sufala Jafi Shagit Rosht Almerak Barah Chelodera Kehalin Sahmon Monoth Angohmateh Damaini Hoz Badhul Amis Saame Sahmotir Datna Salir Nirges Haca Gabadem Modaze Bavash Nerid Henelain Toukareen Seintah Yomrousi Eramaid Ochirel Gezmi Agasid Jumaisha Uldizo Pourdiac Kalbilur Winako Hedelbert Obavette Deta Eidard Aikelwalo Khudiga Araniad Nipoukandeh Errava Merades Okarema Meor Kaveidur Feryi Mendia Neliker Vernazi Houla Jaynara Dotath Lidafa Narol Bama Velmi Ehmuh Mersan Karva Kafeus Charoun Gala Yora Uchian Dasa Ihres Usagbu Aruna Shach Mesar Arayya Dinsiad Sevan Khadboud Trana Girned Ivooda Puswa Thappa Deen Sihsad Zaiden Lipreneh Shiv Vorayi Khadark Pouyi Donsenia Jihrahan Ranahis Aramin Anomun Baze Leng Ihih Adevid Nania Khelirerasa Eband Zamadi Iavsar Sassanan Chanamu Sanjerou
+			}
+
+			regnal_first_names_male = {
+				Igu Bona Artimielia Samak Artamya Yanoyal Shanyi Nardir Sezeni Ezal Puhtesh Shabiri Dekrata Subomous Sigathim Atoram Pintat Landhya Loranan Sanasna Baala Mood Hecala Tehi Netzang Yalka Osas Naz Norma Mafsizan Petashih Arthal Maeemlie Ohrof Brara Ravya Aslech Hahin Talidal Arheh Habi Onpi Shakah Falian Ahayen Abendebi Ahroun Nazed Tokodan Ayoo Ihrda Edel Lahnina Shimu Aulem Zigh Arpah Nag Meni Sirita Kainkan Sannisu Dayera Nada Chaiga Zanes Yapera Ananya Orda Omdan Ajayi Zalemad Tim Djabak Sapi Nehrnah Diada Natousha Sehrbi Yerora Ansan Mankoor Lobrup Bouras Molnahr Hemigh Kazama Gakhireh Pareh Makaser Nussend Ahan Bairshir Bidelcher Fuli Sufala Jafi Shagit Rosht Almerak Barah Chelodera Kehalin Sahmon Monoth Angohmateh Damaini Hoz Badhul Amis Saame Sahmotir Datna Salir Nirges Haca Gabadem Modaze Bavash Nerid Henelain Toukareen Seintah Yomrousi Eramaid Ochirel Gezmi Agasid Jumaisha Uldizo Pourdiac Kalbilur Winako Hedelbert Obavette Deta Eidard Aikelwalo Khudiga Araniad Nipoukandeh Errava Merades Okarema Meor Kaveidur Feryi Mendia Neliker Vernazi Houla Jaynara Dotath Lidafa Narol Bama Velmi Ehmuh Mersan Karva Kafeus Charoun Gala Yora Uchian Dasa Ihres Usagbu Aruna Shach Mesar Arayya Dinsiad Sevan Khadboud Trana Girned Ivooda Puswa Thappa Deen Sihsad Zaiden Lipreneh Shiv Vorayi Khadark Pouyi Donsenia Jihrahan Ranahis Aramin Anomun Baze Leng Ihih Adevid Nania Khelirerasa Eband Zamadi Iavsar Sassanan Chanamu Sanjerou
+			}
+
+			first_names_female = {
+				Marelar Atudad Goram Seyvami Ahni Rima Ebneloum Choga Gousar Fareer Sharroon Diam Malabapt Sanzuch Ladisa Shelata Yomada Absoom Mulu Athasho Jafshi Pahranat Orri Mulata Bierohr Chamag Manalud Naheha Psen Keneka Ahvasa Rova Babenir Anayoud Barva Zaruh Abian Biru Armanad Gamis Gyakager Gada Mozat Ehal Ebira Harda Bomana Bahda Avenid Alaz Hounatad Kirul Goum Obron Kasonia Esala Yahrneaz Baphio Yithmi Shartimih Hilala Niadek Bamara Sarviyi Sibih Hemtalasi Azhdan Lomdor Pireash Heena Thanikhtid Gai Vanel Bamtusha Banseran Harza Semilbaz Khema Gasuk Garbiran Gahta Ahnuni Abben Arshos Ohtar Ramah Farela Yootolk Ires Avenoz Segemarali Jariz Sharir Chilela Hefsa Folika Itmu Galarsia Yoob Efil Asseen Lonenria Peshi Urotak Gashozoo Lerje Mankoor Ja Rasazih Dufidiah Fori Arody Aroum Feknisa Manzan Borjer Joshoun Arasat Palkiba Verk Bielaki Tamabehe Jeman Asinar Charan Zomili Ettold Annakku Polarala Palark Barma Yatarder Muellairault Ladonssund Hamoushekh Ornenel Shes Eqi Anuf Kekah Shiraski Aphah Baid Khifomek Rarami Shimag Athet Rochah Honaldur Shuhola Snahian Atonder Yotana Rabhaneh Nekhaz Giran Somarkia Semah Delabet Risad Pakova Metmeye Shuhken Nasub Hemirin Mabai Harmana Pisarpir Mesen Qerray Ababa Zasrike Ashrat Rinalbab Ilisaferz Iasah Raleya Harvestih Ramerar Areez Yekatah Tid Taireyi Bummiri Buza Path Uanersen Arveler Gideka Odreluk Ghaimi Sahmotir Mosis Rodani Nazaisa Amshod Avingazit Pakazdeem Panu Parges Ashabes Odeta Mibayeh Mahrded
+			}
+
+			regnal_first_names_female = {
+				Marelar Atudad Goram Seyvami Ahni Rima Ebneloum Choga Gousar Fareer Sharroon Diam Malabapt Sanzuch Ladisa Shelata Yomada Absoom Mulu Athasho Jafshi Pahranat Orri Mulata Bierohr Chamag Manalud Naheha Psen Keneka Ahvasa Rova Babenir Anayoud Barva Zaruh Abian Biru Armanad Gamis Gyakager Gada Mozat Ehal Ebira Harda Bomana Bahda Avenid Alaz Hounatad Kirul Goum Obron Kasonia Esala Yahrneaz Baphio Yithmi Shartimih Hilala Niadek Bamara Sarviyi Sibih Hemtalasi Azhdan Lomdor Pireash Heena Thanikhtid Gai Vanel Bamtusha Banseran Harza Semilbaz Khema Gasuk Garbiran Gahta Ahnuni Abben Arshos Ohtar Ramah Farela Yootolk Ires Avenoz Segemarali Jariz Sharir Chilela Hefsa Folika Itmu Galarsia Yoob Efil Asseen Lonenria Peshi Urotak Gashozoo Lerje Mankoor Ja Rasazih Dufidiah Fori Arody Aroum Feknisa Manzan Borjer Joshoun Arasat Palkiba Verk Bielaki Tamabehe Jeman Asinar Charan Zomili Ettold Annakku Polarala Palark Barma Yatarder Muellairault Ladonssund Hamoushekh Ornenel Shes Eqi Anuf Kekah Shiraski Aphah Baid Khifomek Rarami Shimag Athet Rochah Honaldur Shuhola Snahian Atonder Yotana Rabhaneh Nekhaz Giran Somarkia Semah Delabet Risad Pakova Metmeye Shuhken Nasub Hemirin Mabai Harmana Pisarpir Mesen Qerray Ababa Zasrike Ashrat Rinalbab Ilisaferz Iasah Raleya Harvestih Ramerar Areez Yekatah Tid Taireyi Bummiri Buza Path Uanersen Arveler Gideka Odreluk Ghaimi Sahmotir Mosis Rodani Nazaisa Amshod Avingazit Pakazdeem Panu Parges Ashabes Odeta Mibayeh Mahrded	
+			}
+
+			second_names = {
+				Umian Hudi Morni Sasfal Neraza Nardaz Sane Lizta Amol Fahama Temira Irahir Anes Urkham Bahyahi Linakin Sihtata Malkila Rarala Bezbode Sabidag Araz Niusa Arul Ove Rah Mobit Nayab Atour Abes Masel Arraz Alurva Shukonren Panai Batnu Manad Nihans Mehatoor Yural Selobnub Jalet Adiam Memiru Elhim Jiradal Siminu Norersi Rarrodaka Noredjol Mamdaya Ovan Murviro Darami Uredaz Lebai Khnin Soza Rark Arisi Kebeyatiri Mardon Hunis Aremyi Aulin Yastet Amareh Drakiereh Chedo Abnum Aurad Aman Takaso Hehyoorath Barishena Ghamri Safaner Yah Khivad Mulya Noama Sinkhevir Dirva Pirusafa Serira Yoti Posar Gasavak Hokaba Goram Pena Roh Aslech Aresh Chamemi Ason Taheenen Tarel Payah Siparne Komosa Shobrafa Kati Kartan Thoji Ezras Darmazaf Manera Phalind Sumy Nedada Elchen Berdih Ilayai Fissi Voohah Mahir Chaktaren Sand Mezan Butaroob Mimian Chajma Jehasar Lahror Ahih Azen Nelamou Babeta Magnu Nouhevoh Barma Lahtami Nayhah Khalabnar Gorouyar Yasalek Emanad Garisas Hundron Sou Akhmoh Mithier Hepoud Hemotri Bovamih Ayas Absaned Yoosstet Khavesa Kinulia Safilouz Farorad Charil Simeka Kheed Gakeli Fehyagh Ahrdia Nelda Jibutas Chibi Soyyelab Amalah Dima Oshat Aboh Mere Vardali Nakan Mirder Amorih Mahle Hemirin Umam Jafshi Natirbek Eloriel Srasrararz Hul Defsunun Fesrar Laresh Sudhi Asa Orva Louh Sadna Assehion Abrikoum Ohrzel Baibenoh Yemous Numrarat Armaiah Niyibal Fiyotis Jarmak Mararq Hiveda Hurmumi Kheba Yairar Arah Fina Khiznor Jibila Yabiani Khianasha Jibila Sahrazed Hefaka Hamiar Onsula Khon Bat Arvadan Marver Urka Arja Makshmi Jesebal Shach Qeshal Mossas Tinja Yarunas Omshin Kamyeka Reliari Ajonar Hiehti Zhikrah Ganidil Nargika Thasinaz Aradoh Harafa Afuan Jakri Anoosh Panaded Favasb Siveenna Esarsin Yomsion Hakesan Tadhqin Ribnirk Aulin Khegbakish Sicongabafa Nazta Shebula Mabahian Arga Agmur Abbaert Kuola Wamimber Akold Opiai Aldrat Bashkive Locherghen Nithi Eltis Vakulur Siharkhail Sodalrat Ivaere Ohtagur Khass Encbe Saal Omas Arataragh Ashwan Buse Votchehmal Pie Chirire Mareyi Jadata Rothen Bammohy Cheshamah Asaphasa Ralnamun Nefra Varuna Gebroled Jennim Natrair Artehan Mafah Shahoun Amangrald Oritie Attem Hihsa Oldbias Seiradih Nozu Mahir Ojer Saal Corelot Soldi Ubar Maga Sheila Adiam Holhana Lierku Arappan Yomsasa Akhsohar Avorah Ahrenon Modun Obonyabu Antha Dethahal Nareni Hakesan Namoona Daziasa Basta Shemlas Tzirre Thava Efeh Kanari Kerden Hefitasu Meliri Rooshan Ghathmik Cherti Arart Ilnan Poona Ilayai Mod Sakuna Taulam Jihrahan Gamis Bin Arvab Keginu Suzihyaz Gamusa Inkaseemie Maji Serot Bonaskan Alnernouh Neesher Naman Amruros Tilam Madselkika Aphuka Nadaneh Tatsa Bubsama Almananeg Bela Fasi Ashenout Ihra Hina Danel Karesha Mabebu Edit Gamzol Niyarrakaka Hazaza Moumou Tarid Sasama Sobir Atsa Chizzima Orgihna Yarvanu Shithen Shalah Ahra Souli Melad Romomeh Phasas Yifa Semasserire Halada Iosos Thohas Jerour Astu Taheli Arhat Madoman Arsheh Umenod Mareer
+			}
+
+			regnal_second_names = {
+				Umian Hudi Morni Sasfal Neraza Nardaz Sane Lizta Amol Fahama Temira Irahir Anes Urkham Bahyahi Linakin Sihtata Malkila Rarala Bezbode Sabidag Araz Niusa Arul Ove Rah Mobit Nayab Atour Abes Masel Arraz Alurva Shukonren Panai Batnu Manad Nihans Mehatoor Yural Selobnub Jalet Adiam Memiru Elhim Jiradal Siminu Norersi Rarrodaka Noredjol Mamdaya Ovan Murviro Darami Uredaz Lebai Khnin Soza Rark Arisi Kebeyatiri Mardon Hunis Aremyi Aulin Yastet Amareh Drakiereh Chedo Abnum Aurad Aman Takaso Hehyoorath Barishena Ghamri Safaner Yah Khivad Mulya Noama Sinkhevir Dirva Pirusafa Serira Yoti Posar Gasavak Hokaba Goram Pena Roh Aslech Aresh Chamemi Ason Taheenen Tarel Payah Siparne Komosa Shobrafa Kati Kartan Thoji Ezras Darmazaf Manera Phalind Sumy Nedada Elchen Berdih Ilayai Fissi Voohah Mahir Chaktaren Sand Mezan Butaroob Mimian Chajma Jehasar Lahror Ahih Azen Nelamou Babeta Magnu Nouhevoh Barma Lahtami Nayhah Khalabnar Gorouyar Yasalek Emanad Garisas Hundron Sou Akhmoh Mithier Hepoud Hemotri Bovamih Ayas Absaned Yoosstet Khavesa Kinulia Safilouz Farorad Charil Simeka Kheed Gakeli Fehyagh Ahrdia Nelda Jibutas Chibi Soyyelab Amalah Dima Oshat Aboh Mere Vardali Nakan Mirder Amorih Mahle Hemirin Umam Jafshi Natirbek Eloriel Srasrararz Hul Defsunun Fesrar Laresh Sudhi Asa Orva Louh Sadna Assehion Abrikoum Ohrzel Baibenoh Yemous Numrarat Armaiah Niyibal Fiyotis Jarmak Mararq Hiveda Hurmumi Kheba Yairar Arah Fina Khiznor Jibila Yabiani Khianasha Jibila Sahrazed Hefaka Hamiar Onsula Khon Bat Arvadan Marver Urka Arja Makshmi Jesebal Shach Qeshal Mossas Tinja Yarunas Omshin Kamyeka Reliari Ajonar Hiehti Zhikrah Ganidil Nargika Thasinaz Aradoh Harafa Afuan Jakri Anoosh Panaded Favasb Siveenna Esarsin Yomsion Hakesan Tadhqin Ribnirk Aulin Khegbakish Sicongabafa Nazta Shebula Mabahian Arga Agmur Abbaert Kuola Wamimber Akold Opiai Aldrat Bashkive Locherghen Nithi Eltis Vakulur Siharkhail Sodalrat Ivaere Ohtagur Khass Encbe Saal Omas Arataragh Ashwan Buse Votchehmal Pie Chirire Mareyi Jadata Rothen Bammohy Cheshamah Asaphasa Ralnamun Nefra Varuna Gebroled Jennim Natrair Artehan Mafah Shahoun Amangrald Oritie Attem Hihsa Oldbias Seiradih Nozu Mahir Ojer Saal Corelot Soldi Ubar Maga Sheila Adiam Holhana Lierku Arappan Yomsasa Akhsohar Avorah Ahrenon Modun Obonyabu Antha Dethahal Nareni Hakesan Namoona Daziasa Basta Shemlas Tzirre Thava Efeh Kanari Kerden Hefitasu Meliri Rooshan Ghathmik Cherti Arart Ilnan Poona Ilayai Mod Sakuna Taulam Jihrahan Gamis Bin Arvab Keginu Suzihyaz Gamusa Inkaseemie Maji Serot Bonaskan Alnernouh Neesher Naman Amruros Tilam Madselkika Aphuka Nadaneh Tatsa Bubsama Almananeg Bela Fasi Ashenout Ihra Hina Danel Karesha Mabebu Edit Gamzol Niyarrakaka Hazaza Moumou Tarid Sasama Sobir Atsa Chizzima Orgihna Yarvanu Shithen Shalah Ahra Souli Melad Romomeh Phasas Yifa Semasserire Halada Iosos Thohas Jerour Astu Taheli Arhat Madoman Arsheh Umenod Mareer
+			}
+		}
+	}
+}

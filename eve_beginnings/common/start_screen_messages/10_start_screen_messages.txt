@@ -1,0 +1,41 @@
+### PRE-SCRIPTED
+
+# Minmatar
+part = {
+	location = 0
+	localization = "In the eons since EVE Gate collapsed, distinct [GetSpeciesName] tribes formed on the lush continents of [GetHomeWorldName], our civilization has spread and prospered. As the tribes came into contact with each other, distinct separation on [GetHomeWorldName]'s continents and equal abundance of resources on all of them prevented great wars that usually mar the development of pre-spaceflight civilizations. A global [GetSpeciesName] culture developed through mostly peaceful interaction. Now, rising together from our homeworld, we are greeted by a system of ancient stargates allowing quick travel between distant star systems. Do they offer unimaginable riches and glory, or a promise of death and destruction?"
+	
+	trigger = {
+		has_country_flag = minmatar
+	}
+}
+
+# Caldari
+part = {
+	location = 0
+	localization = "In the eons since EVE Gate collapsed, ancestors of [GetSpeciesName] formed disstinct nations on Caldari Prime. The nations developed, expanded and innevitably met each other. Our normal progress was interrupted by the Gallente who landed on Caldari Prime and started asserting their cultural influence on our ancestors. Nations turned into corporations under Gallente Federation, and our genetic superiority lead to their quick rise in the federation's free capitalist environment. The fake Gallente values held us back, however, their enforced excuse for equiality holding us back from achieving true wealth and prosperity among the stars. We wanted out, but the so-called liberal Gallente Federation wouldn't have it. A war for independence broke out, and we lost. As defeat was imminent, billions of our best left Caldari Prime and took to the ancient stargates in search of a new home. We quickly discovered and settled [GetHomeWorldName]. The Caldari State is back, independent, free from Gallente oppression. Due to the frantic flight from our oppressors, the maps of our journey to [GetHomeWorldName] have been lost, but we have no doubt that we will eventually rediscover Caldari Prime, crush the Gallente vermin and reclaim our ancestral home."
+	
+	trigger = {
+		has_country_flag = caldari
+	}
+}
+
+# Gallente
+part = {
+	location = 0
+	localization = "In the eons since EVE Gate collapsed, the [GetSpeciesName] formed disstinct nations on Gallente Prime. Unlike the nations of more barbaric civilizations, the strongest of these, called Garoun, embraced its weaker neighbours and offered them peace and prosperity under its enlightened guidance. As we took to the stars, the legacy of Garoun Empire continued and we set forth seeking to find lesser humans and incorporate them in our shining beacon of liberty. After the setback with the foolish Caldari, we continue to look for other humans in need of our help beyond our home system, our conviction unwavering."
+	
+	trigger = {
+		has_country_flag = gallente
+	}
+}
+
+# Amarr
+part = {
+	location = 0
+	localization = "In the eons since EVE Gate collapsed, [GetSpeciesName], descendants of exiled true believers from Terra, rose to prominence on [GetHomeWorldName] by conquest, forcing other nations into their rightful place as our slaves in a great war remembered as the Reclaiming. Now, we take to the stars to continue the Reclaiming. We will discover what lies beyond the ancient gates and bring any and all to kneel before the Empress in submission."
+	
+	trigger = {
+		has_country_flag = amarr
+	}
+}

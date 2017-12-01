@@ -1,0 +1,11 @@
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		eve.1
+		eve.2
+		eve.3
+		eve.4
+		eve.5
+		eve.6
+	}
+}

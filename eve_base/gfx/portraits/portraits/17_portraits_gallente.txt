@@ -1,0 +1,164 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Gallente
+	gallente_female = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"}
+
+	gallente_male = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03" }
+}
+
+portrait_groups = {
+	gallente = {
+		default = gallente_female
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					gallente_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					gallente_female
+					gallente_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					gallente_female
+					gallente_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gallente_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gallente_male
+				}
+			}
+		}
+	}
+
+	gallente_female_only = {
+		default = gallente_female
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					gallente_female
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					gallente_female
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female
+				}
+			}
+		}
+	}
+}

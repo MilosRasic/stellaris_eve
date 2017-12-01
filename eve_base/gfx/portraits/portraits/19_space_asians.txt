@@ -1,0 +1,107 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Space Asians: Achura, Jin-Mei
+	space_asian_female = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04"}
+	space_asian_male = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_02"	greeting_sound = "human_male_greetings_04" }
+
+}
+
+portrait_groups = {
+	space_asian = {
+		default = space_asian_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					space_asian_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					space_asian_female
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					space_asian_female
+					space_asian_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					space_asian_female
+					space_asian_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					space_asian_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					space_asian_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					space_asian_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					space_asian_male
+				}
+			}
+		}
+	}
+}

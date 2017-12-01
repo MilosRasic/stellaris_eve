@@ -1,0 +1,188 @@
+jovian = {
+	### SHIPS
+	alias = "jovian"
+
+	ship_names = {
+		mining_station = {
+			sequential_name = "%O% X-Sense Refinery"
+		}
+		research_station = {
+			sequential_name = "%O% Impro Research Center"
+		}
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Jove Navy Outpost"
+		}
+
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
+	}
+
+	ship_class_names = {
+		corvette = {
+			Enigma Wraith
+		}
+		
+		destroyer = {
+			Sunesis
+		}
+		
+		cruiser = {
+			Gnosis Phantom
+		}
+		
+		battleship = {
+			Eidolon
+		}
+		
+		science = {
+			Apotheosis
+		}
+		
+		colonizer = {
+			"Jove Mothership"
+		}
+		
+		constructor = {
+		}
+
+		transport = {
+			Visitant
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Jove Navy Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Jove Defense Force"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Jove Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Jove Thralls"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Jove Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Ground Sleepers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Jove Troops"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Troops"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Jove Corps"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Jove Prime"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+			}
+
+			regnal_first_names_male = {
+			}
+
+			first_names_female = {
+			}
+
+			regnal_first_names_female = {
+			}
+
+			second_names = {
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+drifter = {
+	### SHIPS
+	alias = "drifter"
+
+	ship_names = {
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = { }
+
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
+	}
+
+	ship_class_names = {
+		corvette = {
+			"Circadian Sleeper"
+		}
+		
+		destroyer = {
+			"Autothysian Lancer"
+		}
+		
+		cruiser = {
+			"Drifter Cruiser"
+		}
+		
+		battleship = {
+			"Drifter Battleship"
+		}
+		
+		science = {
+			"Circadian Seeker"
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+
+		transport = {
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Drifter Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Drifter Defense Force"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Drifter Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Drifter Thralls"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Drifter Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Ground Sleepers"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Drifters"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Drifters"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Drifter Corps"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Apollo Hiknata Arithmos
+			}
+
+			regnal_first_names_male = {
+				Apollo Hiknata Arithmos
+			}
+
+			first_names_female = {
+				Artemis
+			}
+
+			regnal_first_names_female = {
+				Artemis
+			}
+
+			second_names = {
+				Tyrannos
+			}
+
+			regnal_second_names = {
+				Tyrannos
+			}
+		}
+	}
+}

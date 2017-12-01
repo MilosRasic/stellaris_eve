@@ -1,0 +1,18 @@
+﻿l_english:
+ EMPIRE_DESIGN_minmatar:0 "Minmatar Republic"
+ EMPIRE_DESIGN_minmatar_desc:0 "A tough, no-nonsense race, the Minmatar are a determined and independent people. Their home planet of Matar is a natural paradise, although centuries of abuse have taken much from its beauty. For the Minmatar, the most important thing in life is to be able to take care of yourself on your own, and although kin and family play an important role in their society, they prefer identifying themselves by the clan or tribe to which they belong. A clan can have any number of people in it, and its size is largely dictated by the main activity of its members. Most specialize in one area of activity. While those who live on a planet can focus on agricultural or industrial activity, others who travel around New Eden concentrate on trading, pirating, and suchlike."
+ EMPIRE_DESIGN_caldari:0 "Cadlari State"
+ EMPIRE_DESIGN_caldari_desc:0 "A state built on corporate capitalism, the Caldari State is run by a few mega-corporations which divide the state between them, controlling and ruling every aspect of society. Each corporation is made up of thousands of smaller companies, ranging from industrial companies to law firms. All land and real estate is owned by a company which leases it to the citizens, and government and policing are also handled by independent companies. Although this gives the corporations dictatorial powers, they are just as bound by Caldari customs and laws as the individual, and the fierce, continual competition between the corporations ensures a healthy, consumer-based social environment, which benefits everyone."
+ EMPIRE_DESIGN_gallente:0 "Gallente Federation"
+ EMPIRE_DESIGN_gallente_desc:0 "The Gallenteans. Self-righteous, meddling, pompous and tiresome, or virile liberalists and defenders of the free world. Love them or hate them, you simply can't ignore them. Everybody has an opinion on the Gallente Federation, it all depends from which side of the table you view them. For many, it is the Promised Land, where any dream can become a reality. Descendants of Tau Ceti Frenchmen, the Gallenteans remain strong believers in free will and human rights, despite numerous setbacks in their long history."
+ EMPIRE_DESIGN_amarr:0 "Amarr Empire"
+ EMPIRE_DESIGN_amarr_desc:0 "The Amarr Emperor is the head of a ritualistic, authoritarian imperial state, and below him are the Five Heirs, the heads of the five royal families from which a new Emperor is chosen. The Emperor's authority is unquestioned and absolute, but the archaic and bureaucratic system of government makes it difficult for him to exert his rule unless directly in person. Otherwise, the Five Heirs rule in his name, dividing the huge empire between them. Always a deeply religious people, religion remains of great importance to every Amarrian, a fervour which at various times has been responsible both for great good and great evil. Shortly after recovering from the closure of EVE, they began to expand their realm at the expense of neighbouring states. The nations they conquered were enslaved, a practice justified by their religion."
+
+ EMPIRE_DESIGN_ai_race:0 "AI"
+ EMPIRE_DESIGN_ai_race_desc:0 "Resistance is futile."
+ customizer_custom:0 "Create Custom Species"
+ customizer_custom_desc:0 "Design a completely unique species and conquer the galaxy!"
+ customizer_custom_value:0 "Custom"
+ customizer_random:0 "Random"
+ customizer_random_desc:0 "Play as a completely randomized species!"
+ customizer_random_value:0 "???"

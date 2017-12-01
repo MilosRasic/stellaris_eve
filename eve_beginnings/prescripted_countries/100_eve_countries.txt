@@ -1,0 +1,274 @@
+minmatar = {
+	name = "Minmatar Republic"
+	adjective = "Minmatar"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+	
+	ship_prefix = "RFS"
+	
+	species = {
+		class = "HUM"
+		portrait = "minmatar"
+		name = "Minmatar"
+		plural = "Minmatar"
+		adjective = "Minmatar"
+		name_list = "minmatar"
+		trait = "trait_adaptive"
+		trait = "trait_rapid_breeders"
+		trait = "trait_deviants"
+	}
+	
+	room = "personality_honorbound_warriors_room"
+	
+	authority = "auth_democratic"
+	civics = { "civic_parliamentary_system" "civic_warrior_culture" }
+	government = gov_assembly_of_clans
+	
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_militarist"
+
+	flags = { minmatar custom_start_screen }
+
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Matar"
+	planet_class = "pc_continental"
+	initializer = "pator_system_initializer"
+	system_name = "Pator"
+	
+	graphical_culture = "minmatar_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "eve_online"
+			file = "flag_eve_online_04.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Malaetu Shakor"
+		gender = male
+		portrait = "brutor_male"
+		texture = 0
+		hair = 2
+		clothes = 4
+	}
+}
+
+caldari = {
+	name = "Caldari State"
+	adjective = "Caldari"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "CSS"
+	
+	species = {
+		class = "HUM"
+		portrait = "caldari"
+		name = "Caldari"
+		plural = "Caldari"
+		adjective = "Caldari"
+		name_list = "caldari"
+		trait = "trait_thrifty"
+	}
+	
+	room = "personality_erudite_explorers_room"	
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_corporate_dominion" "civic_meritocracy" }
+	government = gov_executive_committee
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+
+	flags = { caldari custom_start_screen }
+
+	weapon = "tech_missiles_1"
+	ftl = hyperdrive
+	
+	planet_name = "New Caldari Prime"
+	planet_class = "pc_continental"
+	initializer = "caldari_system_initializer"
+	system_name = "New Caldari"
+	
+	graphical_culture = "caldari_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "eve_online"
+			file = "flag_eve_online_02.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Puok Kossinen"
+		gender = male
+		portrait = "civire_male"
+		texture = 0
+		hair = 21
+		clothes = 1
+	}
+}
+
+gallente = {
+	name = "Gallente Federation"
+	adjective = "Gallente"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "GFS"
+	
+	species = {
+		class = "HUM"
+		portrait = "gallente"
+		name = "Gallente"
+		plural = "Gallente"
+		adjective = "Gallente"
+		name_list = "gallente"
+		trait = "trait_charismatic"
+		trait = "trait_communal"
+		trait = "trait_natural_sociologists"
+		trait = "trait_wasteful"
+	}
+	
+	room = "personality_peaceful_traders_room"
+	
+	authority = "auth_democratic"
+	civics = { "civic_free_haven" "civic_parliamentary_system" }
+	government = gov_representative_democracy
+
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+
+	flags = { gallente custom_start_screen }
+
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Gallente Prime"
+	planet_class = "pc_continental"
+	initializer = "luminaire_system_initializer"
+	system_name = "Luminaire"
+	
+	graphical_culture = "gallente_01"
+	city_graphical_culture = "fungoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "eve_online"
+			file = "flag_eve_online_03.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Jacus Roden"
+		gender = male
+		portrait = "gallente_male"
+		texture = 0
+		hair = 2
+		clothes = 6
+	}
+}
+
+amarr = {
+	name = "Amarr Empire"
+	adjective = "Amarrian"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "INS"
+	
+	species = {
+		class = "HUM"
+		portrait = "amarr"
+		name = "Amarr"
+		plural = "Amarr"
+		adjective = "Amarrian"
+		name_list = "amarr"
+		trait = "trait_conformists"
+		trait = "trait_communal"
+		trait = "trait_decadent"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_imperial_cult" }
+	government = gov_divine_empire
+
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_spiritualist"
+
+	flags = { amarr custom_start_screen }
+
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Amarr Prime"
+	planet_class = "pc_continental"
+	initializer = "amarr_system_initializer"
+	system_name = "Amarr"
+	
+	graphical_culture = "amarr_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "eve_online"
+			file = "flag_eve_online_01.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"yellow"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Catiz Tash-Murkon"
+		gender = female
+		portrait = "khanid_female"
+		texture = 0
+		hair = 1
+		clothes = 5
+	}
+}

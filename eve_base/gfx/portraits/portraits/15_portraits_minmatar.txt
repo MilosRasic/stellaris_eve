@@ -1,0 +1,179 @@
+portraits = {
+
+	# Minmatar
+	brutor_female = {	entity = "portrait_human_female_05_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_02"}
+	vherokior_female = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04"}
+	sebiestor_female = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01"}
+
+	brutor_male = {	entity = "portrait_human_male_05_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "human_male_hair_05"	greeting_sound = "human_male_greetings_02" }
+	vherokior_male = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_02"	greeting_sound = "human_male_greetings_04" }
+	sebiestor_male = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_03"	greeting_sound = "human_male_greetings_05" }
+	
+}
+
+portrait_groups = {
+	minmatar = {
+		default = brutor_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					brutor_male
+					vherokior_male
+					sebiestor_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					brutor_female
+					vherokior_female
+					sebiestor_female
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					brutor_female
+					vherokior_female
+					sebiestor_female
+					brutor_male
+					vherokior_male
+					sebiestor_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					brutor_female
+					vherokior_female
+					sebiestor_female
+					brutor_male
+					vherokior_male
+					sebiestor_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					brutor_female
+					vherokior_female
+					sebiestor_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					brutor_male
+					vherokior_male
+					sebiestor_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					brutor_female
+					vherokior_female
+					sebiestor_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					brutor_male
+					vherokior_male
+					sebiestor_male
+				}
+			}
+		}
+	}
+
+	brutor_male_only = {
+		default = brutor_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					brutor_male
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					brutor_male
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					brutor_male
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					brutor_male
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					brutor_male
+				}
+			}
+		}
+	}
+}

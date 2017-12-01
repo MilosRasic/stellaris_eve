@@ -1,0 +1,200 @@
+amarr = {
+	### SHIPS
+	alias = "amarr"
+
+	ship_names = {
+		mining_station = {
+			sequential_name = "%O% Ducia Outpost"
+		}
+		research_station = {
+			sequential_name = "%O% Carthum Outpost"
+		}
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Imp. Navy Outpost"
+		}
+
+		military_station_small = { Astrahus }
+		military_station_medium = { Fortizar }
+		military_station_large = { Keepstar }
+	}
+
+	ship_class_names = {
+		corvette = {
+			Impairor Punisher Executioner Tormentor Inquisitor Crucifier Slicer Crusader Malediction Vengeance Retribution Purifier Deacon Sentinel Malice
+		}
+		
+		destroyer = {
+			Coercer Dragoon Heretic Pontifex Confessor
+		}
+		
+		cruiser = {
+			Omen Maller Augoror Arbitrator Zealot Sacrilege Guardian Pilgrim Curse Devoter Vangel
+		}
+		
+		battleship = {
+			Armageddon Abaddon Apocalypse Redeemer Paladin Archon Revelation Apostle Aeon Avatar Oracle Harbinger Prophecy Absolution Damnation
+		}
+		
+		science = {
+			Magnate Anathema
+		}
+		
+		colonizer = {
+			Ark
+		}
+		
+		constructor = {
+			Providence
+		}
+
+		transport = {
+			Bestower Sigil Prorator Impel
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Imperial Navy Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			random_names = { "Ametat Security" "Company of Marcher Lords" "Holdfast Syndicate" "Imperial Guard" }
+			sequential_name = "%O% Imperial Defense Force"
+		}
+			
+		assault_army = {
+			random_names = { "Amarr Templars" "Fraternity of St. Venefice" "Paladin Survey Force" "Red and Silver Hand" "Royal Uhlans" "Shining Flame" "Tal-Romon Legion" }
+			sequential_name = "%O% Imperial Navy Marines"
+		}
+		
+		slave_army = {
+			random_names = { "Bragian Order" "Kameira Lodge" }
+			sequential_name = "%O% Imperial Slave Troops"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Imperial Clone Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Imperial Ground Drones"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Imperial Psionic Corps"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Imperial Xenohorde"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Imperial Gene Corps"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Mikeb Sek
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"Amarr Prime" Oris
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Tamiroth
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Zach Nenshikih Honis Lalmesras Kahtin Batehran Ozaya Kaym Barmass Talane Pooner Pijil Shizemteh Kourim Nada Gith Phasas Goun Jissi Sarahav Zulih Borvah Bittanshal Pakefarit Khahran Arerar Nidebora Sibahbam Binada Bishos Kebamoum Paraden Mishriji Opoud Fislir Ordize Hessiehan Hepeta Alkarnour Shasha Galiahervan Oshu Ikhtaz Bingavam Thanabi Imafa Mekashtad Shanna Shika Adodi Mides Atair Ghaisa Gornoon Akenul Onil Sahindem Hokshmi Mirose Nabobeh Zooh Hooran Taridor Pazoo Afodir Maires Teni Zia Ubardu Tizeli Kherarabadi Pevalir Pivoon Avel Zefaramen Samas Apra Nurveh Tagana Nardir Fakah Sakitsidendri Tzati Siktinu Sahnora Rorekoo Joshoun Tishama Yarohrat Emah Kerumela Yiranasa Khoor Kiventar Chodha Esme Sindrah Masta Kohaskhach Almananeg Oshih Moorve Afeus Chemaz Madisa Menarten Edilkam Martoyou Sau Vohi Foni Moorve Gefa Shahshin Onnaja Arechar Bimener Maalna Abnum Tzira Dihyat Ferbhy Mouraya Hadakan Fegh Stold Evoom Tuulonen Kanin Penille Huren Enkold Lugannald Yvevet Fernur Ingirden Brulle Sisala Ruolanen Benencel Tadakeh Navai Tona Kiusa Oyu Kakur Namater Umid Momabah Sineru Toyosha Abrikoum Naladon Mengol Osskur Karras Jesahek Vavene Jalshinden Mashi Pazi Damaini Chelm Mifra Karodan Neasa Kavavsaf Ehan Apunar Khadonevedu Eredlis Cardohzon Jur Marari Asomi Koohech Farimla Razbanil Avenra Jindang Azzah Ashyou Hahya Memass Zasma Hoteviba Jafit Kheed Marma Fura Aher Pedoorah Zegon Nevooman Jesahek Araral Huthin Shehset Banaka Msafsan Noubipin Gelamem Rezini Ernait Kamarbha Shahmani Jacheed Yahiad Kooreng Aviantal Naka Zatamaka Mengoul Arim Farokh Arrach Tunir Pomik
+			}
+
+			regnal_first_names_male = {
+				Zach Nenshikih Honis Lalmesras Kahtin Batehran Ozaya Kaym Barmass Talane Pooner Pijil Shizemteh Kourim Nada Gith Phasas Goun Jissi Sarahav Zulih Borvah Bittanshal Pakefarit Khahran Arerar Nidebora Sibahbam Binada Bishos Kebamoum Paraden Mishriji Opoud Fislir Ordize Hessiehan Hepeta Alkarnour Shasha Galiahervan Oshu Ikhtaz Bingavam Thanabi Imafa Mekashtad Shanna Shika Adodi Mides Atair Ghaisa Gornoon Akenul Onil Sahindem Hokshmi Mirose Nabobeh Zooh Hooran Taridor Pazoo Afodir Maires Teni Zia Ubardu Tizeli Kherarabadi Pevalir Pivoon Avel Zefaramen Samas Apra Nurveh Tagana Nardir Fakah Sakitsidendri Tzati Siktinu Sahnora Rorekoo Joshoun Tishama Yarohrat Emah Kerumela Yiranasa Khoor Kiventar Chodha Esme Sindrah Masta Kohaskhach Almananeg Oshih Moorve Afeus Chemaz Madisa Menarten Edilkam Martoyou Sau Vohi Foni Moorve Gefa Shahshin Onnaja Arechar Bimener Maalna Abnum Tzira Dihyat Ferbhy Mouraya Hadakan Fegh Stold Evoom Tuulonen Kanin Penille Huren Enkold Lugannald Yvevet Fernur Ingirden Brulle Sisala Ruolanen Benencel Tadakeh Navai Tona Kiusa Oyu Kakur Namater Umid Momabah Sineru Toyosha Abrikoum Naladon Mengol Osskur Karras Jesahek Vavene Jalshinden Mashi Pazi Damaini Chelm Mifra Karodan Neasa Kavavsaf Ehan Apunar Khadonevedu Eredlis Cardohzon Jur Marari Asomi Koohech Farimla Razbanil Avenra Jindang Azzah Ashyou Hahya Memass Zasma Hoteviba Jafit Kheed Marma Fura Aher Pedoorah Zegon Nevooman Jesahek Araral Huthin Shehset Banaka Msafsan Noubipin Gelamem Rezini Ernait Kamarbha Shahmani Jacheed Yahiad Kooreng Aviantal Naka Zatamaka Mengoul Arim Farokh Arrach Tunir Pomik
+			}
+
+			first_names_female = {
+				Danera Hareydar Tamata Shabrapa Chozal Cankihma Zoke Yapan Machal Nirkun Imomara Bela Apharud Namai Sanopi Shobhena Gakeli Arat Yasheri Arion Irabam Rarmesu Huro Drirshoran Horshandas Natehrnund Loun Ataru Koored Dakiribi Chana Maheesab Ghosh Kasote Care Bushid Madekhti Sohich Bayuka Shochu Gardasstar Laran Navare Dethahal Arira Raniyoun Samin Mebhiyen Kazem Khash Nayeri Bognan Kiskin Partod Sathepadi Majamar Kahiaresh Bavadon Eboum Dep Kukhra Akath Dahyaron Mayir Elnotyan Eba Fosha Yimla Pamih Krafeus Mormie Zamon Chankoh Lenau Arasat Akart Sorpen Odesatu Samsem Hoorazood Orri Tegi Opoumouh Ked Dassad Lig Hessiehan Chaph Yurzif Jarhisi Ahtoud Narshandyn Abiam Aphashat Habthen Ashzal Tuzilo Toumzie Avair Salmediad Gothan Jomiru Bish Mizzerba Lozdod Inesmir Ozadol Uadez Mekamireki Riavo Audodart Ahremen Brynn Irpara Rahadalon Irosa Yomsion Funaila Nilinaiken Alasore Tona Olanzo Borgind Borokle Norazan Uhria Hohli Demen Khnos Nabania Mouh Jedira Deemos Okseroila Blelle Toilen Bridi Kimebu Yamrih Terma Nase Dahyaron Ihrnin Chedo Seevath Ranhil Etsyah Sharzad Erghir Yoti Jalshinden Kilures Hadah Noama Zindahy Ashon Ekin Sousri Latari Temer Moomban Pavana Fehela Hamiahoor Ovat Ekoshame Naruppad Ipar Keseya Marasa Khiandih Catiz Hamideh Jamyl
+			}
+
+			regnal_first_names_female = {
+				Danera Hareydar Tamata Shabrapa Chozal Cankihma Zoke Yapan Machal Nirkun Imomara Bela Apharud Namai Sanopi Shobhena Gakeli Arat Yasheri Arion Irabam Rarmesu Huro Drirshoran Horshandas Natehrnund Loun Ataru Koored Dakiribi Chana Maheesab Ghosh Kasote Care Bushid Madekhti Sohich Bayuka Shochu Gardasstar Laran Navare Dethahal Arira Raniyoun Samin Mebhiyen Kazem Khash Nayeri Bognan Kiskin Partod Sathepadi Majamar Kahiaresh Bavadon Eboum Dep Kukhra Akath Dahyaron Mayir Elnotyan Eba Fosha Yimla Pamih Krafeus Mormie Zamon Chankoh Lenau Arasat Akart Sorpen Odesatu Samsem Hoorazood Orri Tegi Opoumouh Ked Dassad Lig Hessiehan Chaph Yurzif Jarhisi Ahtoud Narshandyn Abiam Aphashat Habthen Ashzal Tuzilo Toumzie Avair Salmediad Gothan Jomiru Bish Mizzerba Lozdod Inesmir Ozadol Uadez Mekamireki Riavo Audodart Ahremen Brynn Irpara Rahadalon Irosa Yomsion Funaila Nilinaiken Alasore Tona Olanzo Borgind Borokle Norazan Uhria Hohli Demen Khnos Nabania Mouh Jedira Deemos Okseroila Blelle Toilen Bridi Kimebu Yamrih Terma Nase Dahyaron Ihrnin Chedo Seevath Ranhil Etsyah Sharzad Erghir Yoti Jalshinden Kilures Hadah Noama Zindahy Ashon Ekin Sousri Latari Temer Moomban Pavana Fehela Hamiahoor Ovat Ekoshame Naruppad Ipar Keseya Marasa Khiandih Catiz Hamideh Jamyl
+			}
+
+			second_names = {
+				Dormondan Rinreh Hirnun Nimedaz Hesal Todana Khahsel Iareb Dubahar Yodurios Azhgabid Kemdiya Eredlis Aka Barimam Asesamy Amemih Belasiad Mese Gib Zierer Nureles Kielish Sragu Pedfi Manir Ilik Rasabe Mooh Samahi Pamar Mynuma Ghoohka Rahmogheb Yoonareyd Ahmach Zailkamirat Yesten Goumis Samas Mida Anagh Erbamait Tobi Kotiston Sragu Chomyah Hajaphron Lahnara Mehnih Chutsya Itmu Eltis Seitam Narzash Ahvar Chidah Adamil Innan Pelarne Uphret Maddam Sehshi Riraba Chemilip Bis Raa Hifa Maires Yamaden Hiasan Andichouz Vatiu Sadmiahas Kana Ghaty Naskad Zaiden Shahni Ahayen Ashkal Alave Mona Snamshasan Iasah Nabah Fambun Yishinoon Semottoriku Akand Naavar Barahan Kormen Chisara Ranaka Chomyah Laban Ginanis Youn Jares Hathah Shushi Dinelu Andrarad Nonon Darmete Manot Nahyeen Abouloun Mezankhenij Neziel Moutid Aviakil Shefan Aramin Sahalondri Sarwed Gali Ouder Ermicha Fata Naeellie Sihrzim Pinihr Bovi Arayya Lahara Jarver Ajonar Shahyanikh Garea Pem Mesghoh Nuhafshen Nodra Ebthad Ubigh Dyrer Bashakru Kereka Unnirgous Ghivaz Thagayom Efaki Sounilier Sadiri Nirla Assaus Alahma Mizzerba Ganeme Mermazgab Boulhera Zaltu Bonorahel Yatichar Shila Moshu Bikan Sanima Ormot Jesalout Assad Rafsadah Khodja Verk Bemarah Zhanya Kehrati Niser Mafe Adehzala Adodanes Khuhrdat Uaneyad Gubala Bordan Chonna Nerdeh Iris Tapa Messa Osaeed Pasrit Piviasen Houb Joah Umor Nemarz Rales Erafeke Pehibiz Chahrnian Lalmesras Bier Humadi Khianasha Alat Sasrame Zhada Sesmas Fusi Tadabram Ayaidi Rashagh Kanira Silera Anas Ioanad Sefon Mafe Nobina Yeeramoun Miradama Ponahyai Jeket Joamma Bourz Piri Pousel Jimud Narionen Amranin Manissan Gothan Garkan Fedas Neliker Josianta Brunckennac Arkah Jerdola Chankinu Jabounahr Sigathim Nara Ankadan Nokimur Sisi Aviantal Neriadams Azen Gidmuger Ostosh Asomato Haikenaras Korika Gesevieve Yedaph Amalene Arativim Juld Knilf Ameinko Atlertolier Heteder Geik Gogefren Heluene Thouni Pietela Pom Crielere Souredan Nayot Hasal Temasi Hielia Evollolf Teodasen Ifsan Abereta Ashain Pindan Yamedar Garana Sigis Aman Falie Taral Bokarrad Khooznan Kilfdag Ikerino Psaken Osas Orlodalle Psankan Agis Zadanu Matyed Mesar Jimiruh Jusemet Soran Savsousi Komoubi Nietira Risku Aegheem Korvas Tabier Gari Handi Atoosh Nibainkier Kheen Aneri Tenegh Nijay Abayi Andiav Ebad Sezhga Sadisah Yarvanu Tesh Gemami Camalla Subateni Zatah Pasirga Atem Zamila Cimmisa Kanira Nasi Area Tahara Ghath Mimime Balete Kaph Hakpark Jada Joaca Labih Eramikagh Shevooz Dedan Gairdefe Soscam Paja Yahta Sharemi Garan Joase Massih Bulidar Toomaniar Olnabim Maja Aven Mayani Adanda Auriryom Zilattir Nodrafshus Unnoba Yabastna Ehrokiah Vahsha Ihomit Antha Gaha Alouzar Innoor Zassalou Kou Damoh Ikora Yalia Joas Lami Taselem Neme Tona Shiamsar Bammohy Yak Abityeda Falian Mehankhi Horadran Haromi
+			}
+
+			regnal_second_names = {
+				Ardishapur Kador Kor-Azor Sarum Tash-Murkon
+			}
+		}
+	}
+}

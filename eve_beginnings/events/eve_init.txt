@@ -1,0 +1,754 @@
+namespace = eve
+
+#Spawn Ni-Kunni as primitives
+event = {
+	id = eve.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = gallente
+				name = "Ni-Kunni"
+				plural = "Ni-Kunni"
+				adjective = "Ni-Kunni"
+				name_list = "nikunni"
+				homeworld = THIS
+				traits = {
+					trait = "trait_conformists"
+				}
+			}
+
+			create_country = {
+				name = "Ni-Kunni City States"
+				authority = auth_oligarchic
+				civics = {
+					civic = civic_landed_nobility
+					civic = civic_increasing_urbanization
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_spiritualist"
+				}
+				flag = {
+					icon = {
+						category = "eve_online"
+						file = "flag_eve_online_14.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "00_solid.dds"
+					}
+					colors={
+						"orange"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = steam_age 
+				set_primitive_age = steam_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Mishi"
+
+			add_modifier = {
+				modifier = "mineral_poor"
+				days = -1
+			}
+
+			while = {
+				count = 3
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 3
+				random_tile = {
+					limit = { 
+						has_blocker = no
+						has_building = no
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"										
+					set_deposit = d_farmland_deposit
+				}
+			}
+
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_factory"
+				set_deposit = d_mineral_deposit					
+			}
+
+			while = {
+				count = 3
+				create_army = {
+					name = "NAME_Industrial_Army"
+					owner = last_created
+					species = last_created
+					type = "industrial_army"
+				}
+			}
+		}
+	}
+}
+
+#Spawn Intaki as primitives
+event = {
+	id = eve.2
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = intaki
+				name = "Intaki"
+				plural = "Intaki"
+				adjective = "Intaki"
+				name_list = "intaki"
+				homeworld = THIS
+				traits = {
+					trait = "trait_charismatic"
+					trait = "trait_communal"
+				}
+			}
+
+			create_country = {
+				name = "Intaki Union"
+				authority = auth_democratic
+				civics = {
+					civic = civic_landed_nobility
+					civic = civic_flat_world_theory
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_pacifist"
+				}
+				flag = {
+					icon = {
+						category = "eve_online"
+						file = "flag_eve_online_10.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "00_solid.dds"
+					}
+					colors={
+						"green"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = renaissance_age 
+				set_primitive_age = renaissance_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Intaki Prime"
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 3
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			while = {
+				count = 4
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					set_deposit = d_farmland_deposit				
+				}					
+			}
+
+			while = {
+				count = 4
+				create_army = {
+					name = "NAME_Primitive_Army"
+					owner = last_created
+					species = last_created
+					type = "primitive_army"
+				}
+			}
+		}
+	}
+}
+
+#Spawn Achura as primitives
+event = {
+	id = eve.3
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = space_asian
+				name = "Achura"
+				plural = "Achura"
+				adjective = "Achura"
+				name_list = "caldari"
+				homeworld = THIS
+				traits = {
+					trait = "trait_conservational"
+					trait = "trait_intelligent"
+					trait = "trait_solitary"
+				}
+			}
+
+			create_country = {
+				name = "Achur Order"
+				authority = auth_democratic
+				civics = {
+					civic = civic_secret_of_fire
+					civic = civic_flat_world_theory
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_spiritualist"
+				}
+				flag = {
+					icon = {
+						category = "eve_online"
+						file = "flag_eve_online_05.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "00_solid.dds"
+					}
+					colors={
+						"red_orange"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = renaissance_age 
+				set_primitive_age = renaissance_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Achura"
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 3
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			while = {
+				count = 4
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					set_deposit = d_farmland_deposit				
+				}					
+			}
+
+			while = {
+				count = 4
+				create_army = {
+					name = "NAME_Primitive_Army"
+					owner = last_created
+					species = last_created
+					type = "primitive_army"
+				}
+			}
+		}
+	}
+}
+
+#Spawn Jin-Mei as primitives
+event = {
+	id = eve.4
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = space_asian
+				name = "Jin-Mei"
+				plural = "Jin-Mei"
+				adjective = "Jin-Mei"
+				name_list = "gallente"
+				homeworld = THIS
+				traits = {
+					trait = "trait_conservational"
+					trait = "trait_charismatic"
+				}
+			}
+
+			create_country = {
+				name = "Jin-Mei Empire"
+				authority = auth_imperial
+				civics = {
+					civic = civic_secret_of_fire
+					civic = civic_landed_nobility
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_authoritarian"
+				}
+				flag = {
+					icon = {
+						category = "eve_online"
+						file = "flag_eve_online_11.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "00_solid.dds"
+					}
+					colors={
+						"burgundy"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = late_medieval_age 
+				set_primitive_age = late_medieval_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Tei-Su"
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			while = {
+				count = 3
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					set_deposit = d_farmland_deposit				
+				}					
+			}
+
+			while = {
+				count = 3
+				create_army = {
+					name = "NAME_Primitive_Army"
+					owner = last_created
+					species = last_created
+					type = "primitive_army"
+				}
+			}
+		}
+	}
+}
+
+#Spawn Ealurians as primitives
+event = {
+	id = eve.5
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = gallente
+				name = "Ealurian"
+				plural = "Ealurians"
+				adjective = "Ealurian"
+				name_list = "amarr"
+				homeworld = THIS
+				traits = {
+					trait = "trait_conformists"
+				}
+			}
+
+			create_country = {
+				name = "Ealurian Clans"
+				authority = auth_democratic
+				civics = {
+					civic = civic_secret_of_fire
+					civic = civic_the_wheel
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_materialist"
+				}
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = stone_age
+				set_primitive_age = stone_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Ealuria"
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			while = {
+				count = 1
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					set_deposit = d_farmland_deposit				
+				}					
+			}
+
+			while = {
+				count = 1
+				create_army = {
+					name = "NAME_Primitive_Army"
+					owner = last_created
+					species = last_created
+					type = "primitive_army"
+				}
+			}
+		}
+	}
+}
+
+#Spawn Mannar as primitives
+event = {
+	id = eve.6
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		random_planet = {
+			limit = {
+				is_planet_class = pc_continental
+				num_pops = 0
+				not = {
+					has_planet_flag = "named_planet"
+				}
+				is_moon = no
+			}
+
+			prevent_anomaly = yes
+
+			create_species = {
+				class = HUM
+				portrait = gallente
+				name = "Mannar"
+				plural = "Mannar"
+				adjective = "Mannar"
+				name_list = "gallente"
+				homeworld = THIS
+				traits = {
+					trait = "trait_strong"
+					trait = "trait_adaptive"
+					trait = "trait_deviants"
+				}
+			}
+
+			create_country = {
+				name = "Mannar State"
+				authority = auth_oligarchic
+				civics = {
+					civic = civic_secret_of_fire
+					civic = civic_the_wheel
+				}
+				species = last_created
+				ethos = {
+					ethic = "ethic_militarist"
+				}
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"black"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+
+			last_created_country = {
+				set_graphical_culture = preindustrial_01
+				set_country_flag = stone_age
+				set_primitive_age = stone_age
+			}
+
+			create_colony = {
+				owner = last_created_country
+				species = last_created
+				ethos = owner
+			}
+
+			set_name = "Mannar"
+
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+					}
+				}	
+			}
+
+			while = {
+				count = 1
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					set_deposit = d_farmland_deposit				
+				}					
+			}
+
+			while = {
+				count = 1
+				create_army = {
+					name = "NAME_Primitive_Army"
+					owner = last_created
+					species = last_created
+					type = "primitive_army"
+				}
+			}
+		}
+	}
+}

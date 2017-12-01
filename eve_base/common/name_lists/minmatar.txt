@@ -1,0 +1,199 @@
+﻿minmatar = {
+	### SHIPS
+	alias = "minmatar"
+
+	ship_names = {
+		mining_station = {
+			sequential_name = "%O% MMC Mining Outpost"
+		}
+		research_station = {
+			sequential_name = "%O% Eifyr Research Center"
+		}
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Rep. Fleet Outpost"
+		}
+
+		military_station_small = { Astrahus }
+		military_station_medium = { Fortizar }
+		military_station_large = { Keepstar }
+	}
+
+	ship_class_names = {
+		corvette = {
+			Reaper Rifter Slasher Breacher Burst Vigil Firetail Claw Stiletto Wolf Jaguar Hound Hyena Scalpel Freki
+		}
+		
+		destroyer = {
+			Thrasher Talwar Sabre Bifrost Svipul
+		}
+		
+		cruiser = {
+			Rupture Stabber Scythe Bellicose Muninn Vagabond Scimitar Huginn Rapier Broadsword Mimir Loki
+		}
+		
+		battleship = {
+			Typhoon Maelstrom Tempest Panther Vargur Nidhoggur Naglfar Lif Hel Ragnarok Hurricane Tornado Cyclone Sleipnir Claymore
+		}
+		
+		science = {
+			Probe Cheetah
+		}
+		
+		colonizer = {
+			Nomad
+		}
+		
+		constructor = {
+			Fenrir
+		}
+
+		transport = {
+			Wreathe Mammoth Hoarder Prowler Mastodon
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Republic Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			random_names = { "Circle of Huskarl" "Krusual Covert Operators" }
+			sequential_name = "%O% Republic Defense Force"
+		}
+			
+		assault_army = {
+			random_names = { "Brutor Vanguard" "Forty-Nine Fedayeen" "Krullefor Organization" "Miramurka Shock Troop" "Sanmatar Kelkoons" "Sebiestor Field Sappers" "Seykal Expeditionary Group" "Tronhadar Free Guard" }
+			sequential_name = "%O% Republic Fleet Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Thrall Horde"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Republic Clone Troops"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Republic Ground Drones"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Planetary Defense Drones"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Ground Drones"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Autonomous Defense Drones"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Corps"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenohorde"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Berserkers"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Belogor Varkal Kulheim
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Huggar Matar
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Syld
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names_male = {
+				Kobernulf Blartulla Ary Ilulf Ornur Ealdrekard Tarine Navittus Notena Orward Eitasena Ospold Skiadore Ria Haderold Itrauan Erosund Valganzo Sisutulf Gatinover Todgert Skiatena Jodemund Batjunsur Hongalar Emiron Armulf Darwaedur Onga Olgard Ellinald Adamegod Beomilar Avren Toraruni Wettin Estur Sutratger Euralfage Eigar End Kentz Haram Knutedder Ikansur Meild Rilesen Amuelloris Shoranes Skjor Waretta Autinen Inolala Pesteya Hyononeki Fanere Sanumo Kinkyonen Siliker Manarainen Achoghu Jabhi Amirker Malirscoure Peydeh Yonkkamon Okolen Hiemalen Tean Wlfharn Haisuras Inaari Ittoh Harnhandar Kalmaran Trangvatold Oirtio Thayafu Saerdald Riluko Alfrulf Freakmikar Anondik Hog Mannekar Alfrald Knuginzo Eadled Elmwo Odilulf Edrei Endit Ebiluard Ebasger Afsur Eding Egand Redolund Geinekur Edusen Udman Erdur Oddeldaktar Vinolfid Odgund Fotine Irsti Gotreda Ondanold Meirlar Wlbrok Odmo Elaef Grewlf Uanslironel Odboko Gei Lavamogar Zeir Fenugur Sydweine Lialuala Herbomur Goggert Ongjer Adatter Aunirad Argi Arnake Gukarla Fider Haen Gadulman Orber Sel Kagnelar Egbindur Surefgen Noboring Ewlang Klolf Loldrir Arbias Eatellef Austrene Odor Rudoko Arher Alfudar Tatkeker Arbjan Eumlard Mikunnur Ernard Alrinror Kolmeter Annes Vodber Inset Vengendolf Alger Sispur Rerumold Dunidi Megnetta Einger Amengjersus Arlufur Kraggelur Hnadulard Olfhar Saell Erobard Odoko Odingill Jurband Ille Ottursdulmur Tor Eganderd Lafrat Luigenir Einello Rutadulf Drovora Atlivald Tatetur Ildus Hadako Unze Bo Krotting Sistran Ratadure Hadbendeko Emilia Smeild Grigynwik Aslungsur Swaslor Manneiri Hilrisi Nondh Ormandons Asgrolfige Odhusen Egbilolf Varstet Rnmeksuvsur Gatgisi Vir Ottylur Egbindur Steddil Savadeikur Irt Gellustur Isidren Iften Felt Eskar Askuldur Ormikur Adotunur Vifvedia Ebesur Oaldald Gussbjer Kils Gulfrabrad Eldi Aunorina Ulyrmur Adiko Wallekon Varstet Arnbjukin Imber Avesber Uinkin Hjef Isbongar Hronn Skiks Menfortur Ergrad Bynshar Florrik Ansbivand Atenfrik Ingreilen Oltander Emblur Amerik Odils Wudgurtar Rurgolti Mikbegoli Analven Andamulbunur Ansbuko Tentdreinn Erleinur Wlfrur Annokagur Atoldulf Happeter Emoria Heia Eggeldold Egostard Hegaldi Eistar Sweird Dalfrim Issana Kolmeter Andgulin Erolkold Alolur Hefreidik Adlebard Babanulf Torder Esbjell Enskan Eurnkar Frirt Eronber Radergidi Goin Engeli Autolbard Gogageillirmer Astluin Eomalfur Marerlur Wedbrik Atare Warvodold Esbi Bremmur Gudkogi Hrolerren Adeirik Ollsteinn Wangerber Kifruge Betalulf Ominnard Jodgauren Wamimber Mangolfeim Olsirtur Skashelden Witundald Estelm Skuind Toldoko Frat Fodoko Odhillafnur Mitylen Oran Allund Olsagard Arngur Eirtulf Elsamer Aurmuald Amognvasa Eitasena Tarurard Isuggven Oraekja Alpur Oldrold Hurtasur Foroligen Germemoin Wei Bemhineri Beltard Omnolfan Antuilin Onirlinzo Wlbrok Muan Redurosso Avald Hank Kasukell Oten Bogekur Aldilbet Zeireinn Uolbeta Amattold Agar Snall Adelhar Azanbilla Totedur Oswosmer Maradit Ozur Horbengoted Gekmund Stedalur Sukur Fensokkan Zeireinn Kakur Fomalia Pedonsar Wigolbjan Muretta Erlemer Anshedis Bjolfolf Asmindil Doldeko Odlululf Osweilur Togtulker Lar Stirht Klokadur Erudlin Arnbjukin Rilfgrin Wenter Rirokton Jursegmana Vesine Higekiakgar Slals Wlfendeldik Gorella Ottarsten Friens Ivediok Hektilget Adden Anstian Aeswa Datitur Fusnasber Erkikur Uansa Kronketild Wideko Arnhad Bydaren Hagotta Esko Dantbeinn Reldirad Redirin Hobelur Hammikfrad Bofjekar Wandar Malaetu
+			}
+
+			regnal_first_names_male = {
+				Kobernulf Blartulla Ary Ilulf Ornur Ealdrekard Tarine Navittus Notena Orward Eitasena Ospold Skiadore Ria Haderold Itrauan Erosund Valganzo Sisutulf Gatinover Todgert Skiatena Jodemund Batjunsur Hongalar Emiron Armulf Darwaedur Onga Olgard Ellinald Adamegod Beomilar Avren Toraruni Wettin Estur Sutratger Euralfage Eigar End Kentz Haram Knutedder Ikansur Meild Rilesen Amuelloris Shoranes Skjor Waretta Autinen Inolala Pesteya Hyononeki Fanere Sanumo Kinkyonen Siliker Manarainen Achoghu Jabhi Amirker Malirscoure Peydeh Yonkkamon Okolen Hiemalen Tean Wlfharn Haisuras Inaari Ittoh Harnhandar Kalmaran Trangvatold Oirtio Thayafu Saerdald Riluko Alfrulf Freakmikar Anondik Hog Mannekar Alfrald Knuginzo Eadled Elmwo Odilulf Edrei Endit Ebiluard Ebasger Afsur Eding Egand Redolund Geinekur Edusen Udman Erdur Oddeldaktar Vinolfid Odgund Fotine Irsti Gotreda Ondanold Meirlar Wlbrok Odmo Elaef Grewlf Uanslironel Odboko Gei Lavamogar Zeir Fenugur Sydweine Lialuala Herbomur Goggert Ongjer Adatter Aunirad Argi Arnake Gukarla Fider Haen Gadulman Orber Sel Kagnelar Egbindur Surefgen Noboring Ewlang Klolf Loldrir Arbias Eatellef Austrene Odor Rudoko Arher Alfudar Tatkeker Arbjan Eumlard Mikunnur Ernard Alrinror Kolmeter Annes Vodber Inset Vengendolf Alger Sispur Rerumold Dunidi Megnetta Einger Amengjersus Arlufur Kraggelur Hnadulard Olfhar Saell Erobard Odoko Odingill Jurband Ille Ottursdulmur Tor Eganderd Lafrat Luigenir Einello Rutadulf Drovora Atlivald Tatetur Ildus Hadako Unze Bo Krotting Sistran Ratadure Hadbendeko Emilia Smeild Grigynwik Aslungsur Swaslor Manneiri Hilrisi Nondh Ormandons Asgrolfige Odhusen Egbilolf Varstet Rnmeksuvsur Gatgisi Vir Ottylur Egbindur Steddil Savadeikur Irt Gellustur Isidren Iften Felt Eskar Askuldur Ormikur Adotunur Vifvedia Ebesur Oaldald Gussbjer Kils Gulfrabrad Eldi Aunorina Ulyrmur Adiko Wallekon Varstet Arnbjukin Imber Avesber Uinkin Hjef Isbongar Hronn Skiks Menfortur Ergrad Bynshar Florrik Ansbivand Atenfrik Ingreilen Oltander Emblur Amerik Odils Wudgurtar Rurgolti Mikbegoli Analven Andamulbunur Ansbuko Tentdreinn Erleinur Wlfrur Annokagur Atoldulf Happeter Emoria Heia Eggeldold Egostard Hegaldi Eistar Sweird Dalfrim Issana Kolmeter Andgulin Erolkold Alolur Hefreidik Adlebard Babanulf Torder Esbjell Enskan Eurnkar Frirt Eronber Radergidi Goin Engeli Autolbard Gogageillirmer Astluin Eomalfur Marerlur Wedbrik Atare Warvodold Esbi Bremmur Gudkogi Hrolerren Adeirik Ollsteinn Wangerber Kifruge Betalulf Ominnard Jodgauren Wamimber Mangolfeim Olsirtur Skashelden Witundald Estelm Skuind Toldoko Frat Fodoko Odhillafnur Mitylen Oran Allund Olsagard Arngur Eirtulf Elsamer Aurmuald Amognvasa Eitasena Tarurard Isuggven Oraekja Alpur Oldrold Hurtasur Foroligen Germemoin Wei Bemhineri Beltard Omnolfan Antuilin Onirlinzo Wlbrok Muan Redurosso Avald Hank Kasukell Oten Bogekur Aldilbet Zeireinn Uolbeta Amattold Agar Snall Adelhar Azanbilla Totedur Oswosmer Maradit Ozur Horbengoted Gekmund Stedalur Sukur Fensokkan Zeireinn Kakur Fomalia Pedonsar Wigolbjan Muretta Erlemer Anshedis Bjolfolf Asmindil Doldeko Odlululf Osweilur Togtulker Lar Stirht Klokadur Erudlin Arnbjukin Rilfgrin Wenter Rirokton Jursegmana Vesine Higekiakgar Slals Wlfendeldik Gorella Ottarsten Friens Ivediok Hektilget Adden Anstian Aeswa Datitur Fusnasber Erkikur Uansa Kronketild Wideko Arnhad Bydaren Hagotta Esko Dantbeinn Reldirad Redirin Hobelur Hammikfrad Bofjekar Wandar Malaetu
+			}
+
+			first_names_female = {
+				Siddalard Halbriden Ons Hegnedan Amukur Ilsur Oddirsolf Ladweisur Sildebetur Orkar Gorn Sirdalada Songilo Geld Nalenzo Eastig Frirbensdarken Igmulf Tiet Skolokuin Gutanilfur Bemmneke Aedalard Ende Feik Eilbavik Sveruvard Alakgur Atad Erazako Alfroren Lulmuna Hendik Imulia Baud Evertfage Lauld Ardia Ogmer Eleldgrilfur Kangegod Harvingur Sart Adarald Julgerting Omilfgasi Dankar Arenur Thonielan Clout Ohmantumaa Pon Sasento Witolf Sini Kykeshi Yinuru Asahal Hihrin Avonon Aetrald Skiasten Tjor Jepa Nuo Tantaiken Areru Dubesune Zenki Geltokur Melnih Urid Nadsa Otuo Winsako Wirurad Aelar Ladooda Iivanamon Valen Voura Agiddlellur Yoomah Teurodedik Kidakaestur Askilhar Matilhelm Onabemur Eladizo Adela Aruko Friss Vudobrauan Sigmakidi Rirokton Amlusming Rildboko Lird Woligabet Oren Geidulf Brokara Selynne Eystana Adwe Askuldur Ikostur Tobekarulf Ulotta Apset Hronjedrik Harven Asbran Atgand Odurstur Ivinlen Fondedmini Stelur Engader Hurgtur Agirtad Shadakhbos Olbran Cle Auslay Jonnora Afgit Idungel Oppur Egtrik Hraderiko Guvera Stunringsmur Filbrofur Fasskeflur Krigasand Getonsur Stoss Burtuli Lirlurad Aikarla Rogimer Wedeiken Ludik Tunn Kvarl Ofylur Frololard Egyrlen Rinsutidur Arnriger Rerd Attar Herveiker Varulard Hettere Hordelena Ambell Letava Bjerd Einulfolf Gang Tylurid Duld Herbusten Hlervolget Eurik Bengedik Andendulf Asri Adelgild Hattolf Helgatild Goverard Tomena Eurwelo Megnetta Endsand Arnidold Rodela Kaeduteuk Antorn Gjasund Irn Agirtad Gostodar Uptadir Einsur Heder Hjomoneli Ernaltur Ingmeken Ungbrard Hradhiko Kagori Guddik Knjuttewlf Ertulf Treur Oldi Artoren Husk Larnkard Sildebetur Eadwagen Ameikur Ivowik Bjad Elindmulf Sted Ortnosand Atill Esbi Adaflulf Gugate Eltrik Hadbundired Ansfrodar Ualda Berlolf Olfard Dorautori Eremar Gusnulber Todellard Mektaduin Ollia Eodhans Gognalfur Paselan Alranbjondan Leusten Ludalerad Nildukur Olubet Isolmur Leumolsan Uilgirin Ogvar Eadwilo Satehan Welukenur Satisund Audurleinn Kotokuin Ongunbjer Felodako Agar Linger Waninna Rodovald Erolfetton Nolm Styllkar Ovoli Aellike Dadunur Arnstalok Austrelur Onfrard Ats Sker Egdald Frord Treollenur Mind Huttelm Vidokfa Ustori Engamber Lufstar Arladur Ongred Urigbrin Fragard Illane Fran Alkwe Etrauan Oktur Hatolur Nekorard Veitt Albi Alfa Daleder Gaunelur Kreust Kaker Benresur Edgelken Arngur Aelrersand Urkolf Eigulf Hildogur Odward Mataban Adelder Ladbeinzo Ingveveka Asomar Huvingel Gagnali Band Jedindrat Aego Toridar Wlestrald Aflur Evrina Olsettur Ensi Idrolf Ernsteber Bamfurmulf Ongidi Steirtfisar Aldolbod Geldare Aelfur Skaer Asgidur Fihaedur Wikodlin Ninzilo Sakold Erulf Onnold Andur Adrald Urondsuard Husk Beomilar Bulban Beginzur Adilfert Lert Ingugar Sakold Arngredin Willungur Hjad Olfgur Arfran Ranniko Odboster Berkrungur Teurik Sinslomer Zallellulf Atad Hardutram Truron Boledia Aelfron Adisbren Klen Egota Adwin Aevombell Harrodik Sallgrevar Treur Aldinold Gudutkard Otramer Bleistmulf Lallalisur Egnel Annalfur Ansfriken Ulruilek Lysseigen Gummotana Skaulmur Toldori Reidolf Wlbrand Uangar Rodukar Eddauger Kratide Frendh Elettan Todenur Yldik Olondulf Omneke Gurneider Erold Erfrim Aelwara Warn Eweldagger Angren
+			}
+
+			regnal_first_names_female = {
+				Siddalard Halbriden Ons Hegnedan Amukur Ilsur Oddirsolf Ladweisur Sildebetur Orkar Gorn Sirdalada Songilo Geld Nalenzo Eastig Frirbensdarken Igmulf Tiet Skolokuin Gutanilfur Bemmneke Aedalard Ende Feik Eilbavik Sveruvard Alakgur Atad Erazako Alfroren Lulmuna Hendik Imulia Baud Evertfage Lauld Ardia Ogmer Eleldgrilfur Kangegod Harvingur Sart Adarald Julgerting Omilfgasi Dankar Arenur Thonielan Clout Ohmantumaa Pon Sasento Witolf Sini Kykeshi Yinuru Asahal Hihrin Avonon Aetrald Skiasten Tjor Jepa Nuo Tantaiken Areru Dubesune Zenki Geltokur Melnih Urid Nadsa Otuo Winsako Wirurad Aelar Ladooda Iivanamon Valen Voura Agiddlellur Yoomah Teurodedik Kidakaestur Askilhar Matilhelm Onabemur Eladizo Adela Aruko Friss Vudobrauan Sigmakidi Rirokton Amlusming Rildboko Lird Woligabet Oren Geidulf Brokara Selynne Eystana Adwe Askuldur Ikostur Tobekarulf Ulotta Apset Hronjedrik Harven Asbran Atgand Odurstur Ivinlen Fondedmini Stelur Engader Hurgtur Agirtad Shadakhbos Olbran Cle Auslay Jonnora Afgit Idungel Oppur Egtrik Hraderiko Guvera Stunringsmur Filbrofur Fasskeflur Krigasand Getonsur Stoss Burtuli Lirlurad Aikarla Rogimer Wedeiken Ludik Tunn Kvarl Ofylur Frololard Egyrlen Rinsutidur Arnriger Rerd Attar Herveiker Varulard Hettere Hordelena Ambell Letava Bjerd Einulfolf Gang Tylurid Duld Herbusten Hlervolget Eurik Bengedik Andendulf Asri Adelgild Hattolf Helgatild Goverard Tomena Eurwelo Megnetta Endsand Arnidold Rodela Kaeduteuk Antorn Gjasund Irn Agirtad Gostodar Uptadir Einsur Heder Hjomoneli Ernaltur Ingmeken Ungbrard Hradhiko Kagori Guddik Knjuttewlf Ertulf Treur Oldi Artoren Husk Larnkard Sildebetur Eadwagen Ameikur Ivowik Bjad Elindmulf Sted Ortnosand Atill Esbi Adaflulf Gugate Eltrik Hadbundired Ansfrodar Ualda Berlolf Olfard Dorautori Eremar Gusnulber Todellard Mektaduin Ollia Eodhans Gognalfur Paselan Alranbjondan Leusten Ludalerad Nildukur Olubet Isolmur Leumolsan Uilgirin Ogvar Eadwilo Satehan Welukenur Satisund Audurleinn Kotokuin Ongunbjer Felodako Agar Linger Waninna Rodovald Erolfetton Nolm Styllkar Ovoli Aellike Dadunur Arnstalok Austrelur Onfrard Ats Sker Egdald Frord Treollenur Mind Huttelm Vidokfa Ustori Engamber Lufstar Arladur Ongred Urigbrin Fragard Illane Fran Alkwe Etrauan Oktur Hatolur Nekorard Veitt Albi Alfa Daleder Gaunelur Kreust Kaker Benresur Edgelken Arngur Aelrersand Urkolf Eigulf Hildogur Odward Mataban Adelder Ladbeinzo Ingveveka Asomar Huvingel Gagnali Band Jedindrat Aego Toridar Wlestrald Aflur Evrina Olsettur Ensi Idrolf Ernsteber Bamfurmulf Ongidi Steirtfisar Aldolbod Geldare Aelfur Skaer Asgidur Fihaedur Wikodlin Ninzilo Sakold Erulf Onnold Andur Adrald Urondsuard Husk Beomilar Bulban Beginzur Adilfert Lert Ingugar Sakold Arngredin Willungur Hjad Olfgur Arfran Ranniko Odboster Berkrungur Teurik Sinslomer Zallellulf Atad Hardutram Truron Boledia Aelfron Adisbren Klen Egota Adwin Aevombell Harrodik Sallgrevar Treur Aldinold Gudutkard Otramer Bleistmulf Lallalisur Egnel Annalfur Ansfriken Ulruilek Lysseigen Gummotana Skaulmur Toldori Reidolf Wlbrand Uangar Rodukar Eddauger Kratide Frendh Elettan Todenur Yldik Olondulf Omneke Gurneider Erold Erfrim Aelwara Warn Eweldagger Angren
+			}
+
+			second_names = {
+				Monnur Eksmon Olmeke Odhidik Worg Hettad Roszurald Gubeber Aldelrind Tiatesulf Jatur Wahn Sildbena Elda Jodilur Arnur Aldorim Aredeborg Eolmulf Arnadi Annidhar Hjorpauren Erpidik Kerane Anbell Hantundad Vigraluin Kytitta Edeirik Odling Kreust Gurodur Eadwune Herenbeier Eurwadur Geittikulf Arvolard Etrinn Ebunden Soduin Lartigen Honulf Astuin Vengjengit Eurtrik Olilmod Armin Ingvalara Trirtulfruldin Ornhar Audurleinn Smilfdolt Arnmalber Sosteinn Odigron Steltbulfer Ozelbreinn Abeildefder Adosede Agitta Krur Eilirmuald Afagnus Golmuald Aeduin Krizokil Alradulf Brettirdur Atune Hroitintur Adhar Hefreidik Reinerakin Skolf Agdald Lurbasgi Uttold Erada Eindrerold Todsildus Gerremur Ollgur Okirsder Ugge Hvagasand Baltera Ekonori Goskaktar Aborin Anninar Haenobiber Sond Efnart Duihlin Hroitintur Ronchelin Gallusiene Kuers Heeraz Punkyoemon Rormodik Agand Ruumi Jovvakko Ellulf Hadonoo Ahitoh Uchinuda Ziraze Armon Shais Voespant Sumomada Enolachah Eradana Hashinouras Svagnegnot Rotta Afazin Choosha Tehnud Lasire Ravensdad Analven Antgy Ebneloum Bonerand Pidgur Kuro Rerana Lien Elonen Areh Egheyns Rauranmaa Ahorakka Dennesene Erorbert Hangond Kolldur Tonkiainen Masara Aetar Zimse Mivora Tasvas Okonda Suid Dophar Estram Ankgur Notelm Angils Oshnu Okagairos Kingato Sabaneushi Situnen Askandsolhar Adarya Yenthera Eodlan Oblikkur Esbjavik Adinagitta Isangrede Fomanko Sorogur Hreurn Hakeonari Daleder Bodadur Attar Enstulf Ansfriken Jeritta Eskavert Edo Askelef Villakard Asreva Hralm Tottalfill Isalolf Hemolifer Togmur Irolf Wyrd Stylera Arsvald Ereid Omblur Tjek Gerremur Herako Gungvidi Modrold Arvekar Aesbad Friens Gunonbjer Hjedt Sorsdaltur Virmako Harmirkar Ryver Wimfren Anilla Mardakar Auspur Gotlenur Stulf Kafruger Hrein Olsar Itur Hogstossen Olvika Fadvamund Relm Odiber Engisi Armelur Audari Egding Algat Taven Tolgaven Reud Atana Aetakur Serg Vir Aremold Wlfhorl Kadlotta Einur Gumonot Askold Arike Metardror Ardreas Pentuter Irieh Arneka Vaufer Antikelm Innolf Dermesbeyne Odida Osagard Aedin Agiko Austrenald Aulrand Fegill Libold Wlfrurd Yngvigur Tadiko Beldad Tolelskorsur Lovedia Sveruvard Astrarald Admur Wulenbjon Orba Eytteinn Irkold Letava Habresia Odatrik Oltolf Wlfhod Renatikkin Gufrolf Arstin Oddeldaktar Treodeskar Heska Finskakar Dalanard Aptogaban Eode Eldsund Indald Asdur Woligabet Reiddeider Allfran Agattolf Rildboko Anner Edar Aedald Bonnvekin Salkur Oloniden Gekilard Eurten Ellovik Otolf Rignering Reit Guvera Tolangranner Ingaudur Afran Kyndeflar Fjell Tontolt Eornren Ealdjer Aldastmelden Rilesen Erand Svaken Amunnjorn Raul Lullikia Alduko Emblard Masratran Silbander Hudwin Ritokas Hindelvid Gamilia Kammittur Urlan Dronetta Amfur Tokel Edari Nadila Osbruron Onunhold Bealbjelfur Brettirdur Edba Bran Azuko Otgodar Rartolbera Eorpweturan Lianuard Reiradur Verake Rannolf Atirsand Udmulf Orard Bjolf Kort Egitrard Onuguranko Hobelhar Ingmatorn Eureit Namitaden Edungsuard Magbjolfur Elbart Einaldad Hilfhurmur Hilsenaef Egiber Steirata Eyleinn Gang Hatard Svir Odruband Avegel Hednur Ofaenur Oltber Dotudink Ryrede Lulkraka Arngur Herveiker Guldit Tovuli Nadveilur Idmur Belmemer Ganolf Emandsine Blevimold Rimbrumulf Annoke Gotlenur Grinsdikild Aunirad Kalfren Stikiker Ongiko Eysur Alvober Gerg Atus Badengaud Letava Rehsmerold Lanikur Kornher Tuin Honn Vleirg Hent Bleimor Aegbald Ingeiker Faband Sagalo Gulalin Girg Elbe Idald Malmadwik Betulen Hren Huneimina Binkbidard Wiltold Svaken Eta Aerdar Eisur Konari Akbeier Almegila Govadulf Hrofrogedur Sormike Alikur Eldber Hedater Alfgert Afuran Sirbold Siramer Gergred Ornatber Adiduin Hribelard Umbram Hefleflor Padhelm Ingriker Ealsted Harbubert Anfruin Evuksdiko Olmimold Rilstirson Erkel Halvosher Sarode Kammittur Besaber Kortadaken Klotgast Fraer Gadoko Nidmakon Egmur Renatikkin Arrud Teolisi Hrul Surelnolf Ungur Eryldar Hesogeda Erlemar Aeditide Alfotada Demoron Amelsolf Bendald Fivinald Hufn Boe Gudadard Fivoldold Nanjefdori Dreik Filstar Frid Skialar Ginbatur Annodi Odbeldur Akrufur Elde Tiatulf Eindranodur Word Edwirset Lytager Hetinold Blurt Edemur Lagar Arad Orlasi Avorsand Wier Odoko Hjadder Arolf Ondgrulf Brydoker Reland Helala Waninna Venansur Bradurald Bear Alhold Erobsdin Andidan Iggadnur Oakka Habad Harodaber Pessur Gundrammon Odebeinn Jelm Isolstur Karkirdard Solendus Obbi Lupanda Urt Bengikold Smilnialin Rasovert Eymkur Aulfard Torune Ernst Eilikkur Eindrala Uikin Oftuin Atani Mekentelm Hjarald Tongofur Kerane Larboken Witalrald Embrifur Eytteinn Evruko Orber Austriromur Streinard Haram Reidesar Zaruna Ergriok Krud Karkapti Gozeiride Balledia Hjodellar Eitar Larboken Sonur Raut Hedring Elvand Arbrid Eisi Malbrund On Lisugdolf Aslofsdimmon Meinaborg Enmoin Simnika Badidovar Uilguko Erand Eodo Aggand Ensen Frar Aellelar Huger Hignotta Kadrarolf Genoruin Kloribjar Eymanduard Svaflur Aslukur Egengulf Ego Ilmer Aeldar Histatold Havartard Rolelund Olmeigar Eidalren Aelhedur Hogstossen Todber Alalene Iron Adduin Vudugbad Elf Hakekur Elehdinn Aettad Atrard Merogar Benkina Videda Eyldur Avindisur Adden Bugnegrit Gulhikur Aetofrens Odboko Afstuin Teoren Uttolf Enguflod Idulf Ranjorn Hrer Eadrika Adwa Katamuko Evukulf Hesker Golgen Krandin Steisgrider Govuden Eurboder Blorata Stanuard Wallulban Reyspander Hadunold Blillane Gind Auner Adran Akegnvelram Larisi Andirid Fibemulf Pialt Bernild Hilfrald Teud Aren Sikandi Belirhar Emendred Gnarn Albokite Flosiden Sotana Eudar Teuttewlf Effonir Argo Bjaren Oaldald Kekkikber Evalfolf Alpur Wititur Alfur Sotisarin Olruin Ofakilur Teonusude Ullbjell Edonbald Eoror Atelar Benteinn Wettin Abina Aldorsen Nontin Ortmur Gutard Kastomar Ogmur Wisper Hurava Eurtrald Anjell Islabsdald Markela Eyrtgur Akold Kird Parkell Gusnulber Stiert Arnilfar Belbjolder Anbald Ofoden Bestevar Arla Onustrunda Elfrekur Alollolf Ontbald Sverbrald Tialgar Atgur Orulf Eimod Hegelin Morane Hodinur Katefert Eylilur Teursen Suarin Gak Vegeldur Statenrik Witer Hakielin Sinssillar Ingegolf Agirtad Ebunden Wutagen Lem Ido Olsurard Uns Lurang Aden Haniakare Erada Semilia Lisugdolf Teons Bafrolwik Adirvert Skudukulf Hagenzo Walfredard Manban Tamekamur Vakmerger Aetedar Jalena Koggitta Ebolfer Raunard Lorntekel Irfrik Bensar Enald Erkamin Kogadgill Einorgeri Eugino Galedia Klen Drur Hedrand Aldiko Lanssuna Rarlard Alkwaer Adlistar Eymkur Erdokar Erien Histatold Kavonemur Ulyrmur Astraetin Marmagur Egelbad Adgrian Hadumulf Bei Leduget Egnat Illard Klesund Albimer Hermyke Tros Hreld Akbias Ilgert Duld Urbegund Lundiggur Gerbold Eyfrata Eileikar Rarfani Erhan Kanenald Shakor
+			}
+
+			regnal_second_names = {
+				Monnur Eksmon Olmeke Odhidik Worg Hettad Roszurald Gubeber Aldelrind Tiatesulf Jatur Wahn Sildbena Elda Jodilur Arnur Aldorim Aredeborg Eolmulf Arnadi Annidhar Hjorpauren Erpidik Kerane Anbell Hantundad Vigraluin Kytitta Edeirik Odling Kreust Gurodur Eadwune Herenbeier Eurwadur Geittikulf Arvolard Etrinn Ebunden Soduin Lartigen Honulf Astuin Vengjengit Eurtrik Olilmod Armin Ingvalara Trirtulfruldin Ornhar Audurleinn Smilfdolt Arnmalber Sosteinn Odigron Steltbulfer Ozelbreinn Abeildefder Adosede Agitta Krur Eilirmuald Afagnus Golmuald Aeduin Krizokil Alradulf Brettirdur Atune Hroitintur Adhar Hefreidik Reinerakin Skolf Agdald Lurbasgi Uttold Erada Eindrerold Todsildus Gerremur Ollgur Okirsder Ugge Hvagasand Baltera Ekonori Goskaktar Aborin Anninar Haenobiber Sond Efnart Duihlin Hroitintur Ronchelin Gallusiene Kuers Heeraz Punkyoemon Rormodik Agand Ruumi Jovvakko Ellulf Hadonoo Ahitoh Uchinuda Ziraze Armon Shais Voespant Sumomada Enolachah Eradana Hashinouras Svagnegnot Rotta Afazin Choosha Tehnud Lasire Ravensdad Analven Antgy Ebneloum Bonerand Pidgur Kuro Rerana Lien Elonen Areh Egheyns Rauranmaa Ahorakka Dennesene Erorbert Hangond Kolldur Tonkiainen Masara Aetar Zimse Mivora Tasvas Okonda Suid Dophar Estram Ankgur Notelm Angils Oshnu Okagairos Kingato Sabaneushi Situnen Askandsolhar Adarya Yenthera Eodlan Oblikkur Esbjavik Adinagitta Isangrede Fomanko Sorogur Hreurn Hakeonari Daleder Bodadur Attar Enstulf Ansfriken Jeritta Eskavert Edo Askelef Villakard Asreva Hralm Tottalfill Isalolf Hemolifer Togmur Irolf Wyrd Stylera Arsvald Ereid Omblur Tjek Gerremur Herako Gungvidi Modrold Arvekar Aesbad Friens Gunonbjer Hjedt Sorsdaltur Virmako Harmirkar Ryver Wimfren Anilla Mardakar Auspur Gotlenur Stulf Kafruger Hrein Olsar Itur Hogstossen Olvika Fadvamund Relm Odiber Engisi Armelur Audari Egding Algat Taven Tolgaven Reud Atana Aetakur Serg Vir Aremold Wlfhorl Kadlotta Einur Gumonot Askold Arike Metardror Ardreas Pentuter Irieh Arneka Vaufer Antikelm Innolf Dermesbeyne Odida Osagard Aedin Agiko Austrenald Aulrand Fegill Libold Wlfrurd Yngvigur Tadiko Beldad Tolelskorsur Lovedia Sveruvard Astrarald Admur Wulenbjon Orba Eytteinn Irkold Letava Habresia Odatrik Oltolf Wlfhod Renatikkin Gufrolf Arstin Oddeldaktar Treodeskar Heska Finskakar Dalanard Aptogaban Eode Eldsund Indald Asdur Woligabet Reiddeider Allfran Agattolf Rildboko Anner Edar Aedald Bonnvekin Salkur Oloniden Gekilard Eurten Ellovik Otolf Rignering Reit Guvera Tolangranner Ingaudur Afran Kyndeflar Fjell Tontolt Eornren Ealdjer Aldastmelden Rilesen Erand Svaken Amunnjorn Raul Lullikia Alduko Emblard Masratran Silbander Hudwin Ritokas Hindelvid Gamilia Kammittur Urlan Dronetta Amfur Tokel Edari Nadila Osbruron Onunhold Bealbjelfur Brettirdur Edba Bran Azuko Otgodar Rartolbera Eorpweturan Lianuard Reiradur Verake Rannolf Atirsand Udmulf Orard Bjolf Kort Egitrard Onuguranko Hobelhar Ingmatorn Eureit Namitaden Edungsuard Magbjolfur Elbart Einaldad Hilfhurmur Hilsenaef Egiber Steirata Eyleinn Gang Hatard Svir Odruband Avegel Hednur Ofaenur Oltber Dotudink Ryrede Lulkraka Arngur Herveiker Guldit Tovuli Nadveilur Idmur Belmemer Ganolf Emandsine Blevimold Rimbrumulf Annoke Gotlenur Grinsdikild Aunirad Kalfren Stikiker Ongiko Eysur Alvober Gerg Atus Badengaud Letava Rehsmerold Lanikur Kornher Tuin Honn Vleirg Hent Bleimor Aegbald Ingeiker Faband Sagalo Gulalin Girg Elbe Idald Malmadwik Betulen Hren Huneimina Binkbidard Wiltold Svaken Eta Aerdar Eisur Konari Akbeier Almegila Govadulf Hrofrogedur Sormike Alikur Eldber Hedater Alfgert Afuran Sirbold Siramer Gergred Ornatber Adiduin Hribelard Umbram Hefleflor Padhelm Ingriker Ealsted Harbubert Anfruin Evuksdiko Olmimold Rilstirson Erkel Halvosher Sarode Kammittur Besaber Kortadaken Klotgast Fraer Gadoko Nidmakon Egmur Renatikkin Arrud Teolisi Hrul Surelnolf Ungur Eryldar Hesogeda Erlemar Aeditide Alfotada Demoron Amelsolf Bendald Fivinald Hufn Boe Gudadard Fivoldold Nanjefdori Dreik Filstar Frid Skialar Ginbatur Annodi Odbeldur Akrufur Elde Tiatulf Eindranodur Word Edwirset Lytager Hetinold Blurt Edemur Lagar Arad Orlasi Avorsand Wier Odoko Hjadder Arolf Ondgrulf Brydoker Reland Helala Waninna Venansur Bradurald Bear Alhold Erobsdin Andidan Iggadnur Oakka Habad Harodaber Pessur Gundrammon Odebeinn Jelm Isolstur Karkirdard Solendus Obbi Lupanda Urt Bengikold Smilnialin Rasovert Eymkur Aulfard Torune Ernst Eilikkur Eindrala Uikin Oftuin Atani Mekentelm Hjarald Tongofur Kerane Larboken Witalrald Embrifur Eytteinn Evruko Orber Austriromur Streinard Haram Reidesar Zaruna Ergriok Krud Karkapti Gozeiride Balledia Hjodellar Eitar Larboken Sonur Raut Hedring Elvand Arbrid Eisi Malbrund On Lisugdolf Aslofsdimmon Meinaborg Enmoin Simnika Badidovar Uilguko Erand Eodo Aggand Ensen Frar Aellelar Huger Hignotta Kadrarolf Genoruin Kloribjar Eymanduard Svaflur Aslukur Egengulf Ego Ilmer Aeldar Histatold Havartard Rolelund Olmeigar Eidalren Aelhedur Hogstossen Todber Alalene Iron Adduin Vudugbad Elf Hakekur Elehdinn Aettad Atrard Merogar Benkina Videda Eyldur Avindisur Adden Bugnegrit Gulhikur Aetofrens Odboko Afstuin Teoren Uttolf Enguflod Idulf Ranjorn Hrer Eadrika Adwa Katamuko Evukulf Hesker Golgen Krandin Steisgrider Govuden Eurboder Blorata Stanuard Wallulban Reyspander Hadunold Blillane Gind Auner Adran Akegnvelram Larisi Andirid Fibemulf Pialt Bernild Hilfrald Teud Aren Sikandi Belirhar Emendred Gnarn Albokite Flosiden Sotana Eudar Teuttewlf Effonir Argo Bjaren Oaldald Kekkikber Evalfolf Alpur Wititur Alfur Sotisarin Olruin Ofakilur Teonusude Ullbjell Edonbald Eoror Atelar Benteinn Wettin Abina Aldorsen Nontin Ortmur Gutard Kastomar Ogmur Wisper Hurava Eurtrald Anjell Islabsdald Markela Eyrtgur Akold Kird Parkell Gusnulber Stiert Arnilfar Belbjolder Anbald Ofoden Bestevar Arla Onustrunda Elfrekur Alollolf Ontbald Sverbrald Tialgar Atgur Orulf Eimod Hegelin Morane Hodinur Katefert Eylilur Teursen Suarin Gak Vegeldur Statenrik Witer Hakielin Sinssillar Ingegolf Agirtad Ebunden Wutagen Lem Ido Olsurard Uns Lurang Aden Haniakare Erada Semilia Lisugdolf Teons Bafrolwik Adirvert Skudukulf Hagenzo Walfredard Manban Tamekamur Vakmerger Aetedar Jalena Koggitta Ebolfer Raunard Lorntekel Irfrik Bensar Enald Erkamin Kogadgill Einorgeri Eugino Galedia Klen Drur Hedrand Aldiko Lanssuna Rarlard Alkwaer Adlistar Eymkur Erdokar Erien Histatold Kavonemur Ulyrmur Astraetin Marmagur Egelbad Adgrian Hadumulf Bei Leduget Egnat Illard Klesund Albimer Hermyke Tros Hreld Akbias Ilgert Duld Urbegund Lundiggur Gerbold Eyfrata Eileikar Rarfani Erhan Kanenald Shakor
+			}
+		}
+	}
+}
