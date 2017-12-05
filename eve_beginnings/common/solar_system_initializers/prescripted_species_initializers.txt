@@ -28,7 +28,7 @@ pator_system_initializer = {
 		name = "Belogor"
 		class = "pc_barren"
 		orbit_distance = 13
-		size = 14
+		size = 13
 		has_ring = no
 		flags = { named_planet }
 	}
@@ -37,7 +37,7 @@ pator_system_initializer = {
 		name = "Huggar"
 		class = "pc_continental"
 		orbit_distance = 32
-		size = 24
+		size = 18
 		has_ring = no
 		flags = { named_planet }
 
@@ -88,7 +88,7 @@ pator_system_initializer = {
 		name = "Vakir"
 		class = "pc_toxic"
 		orbit_distance = 104
-		size = 34
+		size = 25
 		has_ring = yes
 		flags = { named_planet }
 
@@ -111,7 +111,7 @@ pator_system_initializer = {
 		name = "Varkal"
 		class = "pc_barren"
 		orbit_distance = 32
-		size = 14
+		size = 13
 		has_ring = yes
 		flags = { named_planet }
 
@@ -127,7 +127,7 @@ pator_system_initializer = {
 		name = "Kulheim"
 		class = "pc_barren"
 		orbit_distance = 44
-		size = 34
+		size = 23
 		has_ring = yes
 		flags = { named_planet }
 
@@ -150,7 +150,7 @@ pator_system_initializer = {
 		name = "Orinn"
 		class = "pc_toxic"
 		orbit_distance = 119
-		size = 32
+		size = 22
 		has_ring = no
 		flags = { named_planet }
 		
@@ -214,7 +214,7 @@ caldari_system_initializer = {
 		name = "Matias"
 		class = "pc_continental"
 		orbit_distance = 31
-		size = 18
+		size = 15
 		has_ring = yes
 		flags = { named_planet }
 
@@ -230,7 +230,7 @@ caldari_system_initializer = {
 		name = "Orieku"
 		class = "pc_barren"
 		orbit_distance = 36
-		size = 22
+		size = 17
 		has_ring = yes
 		flags = { named_planet }
 
@@ -253,7 +253,7 @@ caldari_system_initializer = {
 		name = "New Caldari Prime"
 		class = "pc_continental"
 		orbit_distance = 36
-		size = 55
+		size = 28
 		has_ring = no
 		starting_planet = yes
 		tile_blockers = none
@@ -280,7 +280,7 @@ caldari_system_initializer = {
 		name = "Oniteseru"
 		class = "pc_continental"
 		orbit_distance = 107
-		size = 25
+		size = 20
 		has_ring = no
 		flags = { named_planet }
 
@@ -312,7 +312,7 @@ luminaire_system_initializer = {
 		name = "Noya"
 		class = "pc_barren"
 		orbit_distance = 18
-		size = 16
+		size = 14
 		has_ring = yes
 		flags = { named_planet }
 
@@ -328,7 +328,7 @@ luminaire_system_initializer = {
 		name = "Corufeu"
 		class = "pc_continental"
 		orbit_distance = 24
-		size = 17
+		size = 15
 		has_ring = yes
 		flags = { named_planet }
 
@@ -351,7 +351,7 @@ luminaire_system_initializer = {
 		name = "Astrin"
 		class = "pc_continental"
 		orbit_distance = 25
-		size = 17
+		size = 15
 		has_ring = yes
 		flags = { named_planet }
 
@@ -374,7 +374,7 @@ luminaire_system_initializer = {
 		name = "Malloc"
 		class = "pc_barren"
 		orbit_distance = 26
-		size = 21
+		size = 16
 		has_ring = yes
 		flags = { named_planet }
 
@@ -397,7 +397,7 @@ luminaire_system_initializer = {
 		name = "Tanet"
 		class = "pc_barren"
 		orbit_distance = 33
-		size = 45
+		size = 25
 		has_ring = no
 		flags = { named_planet }
 
@@ -413,7 +413,7 @@ luminaire_system_initializer = {
 		name = "Gallente Prime"
 		class = "pc_continental"
 		orbit_distance = 67
-		size = 155
+		size = 25
 		has_ring = yes
 		starting_planet = yes
 		tile_blockers = none
@@ -445,7 +445,7 @@ luminaire_system_initializer = {
 		name = "Caldari Prime"
 		class = "pc_continental"
 		orbit_distance = 107
-		size = 124
+		size = 23
 		has_ring = yes
 		flags = { named_planet }
 
@@ -472,7 +472,7 @@ luminaire_system_initializer = {
 		name = "Ortange"
 		class = "pc_frozen"
 		orbit_distance = 99
-		size = 32
+		size = 21
 		has_ring = yes
 		flags = { named_planet }
 
@@ -536,7 +536,7 @@ amarr_system_initializer = {
 		name = "Amarr Prime"
 		class = "pc_continental"
 		orbit_distance = 16
-		size = 15
+		size = 14
 		has_ring = yes
 		starting_planet = yes
 		tile_blockers = none
@@ -557,7 +557,7 @@ amarr_system_initializer = {
 		name = "Tamiroth"
 		class = "pc_ocean"
 		orbit_distance = 21
-		size = 17
+		size = 15
 		has_ring = yes
 		flags = { named_planet }
  
@@ -573,7 +573,7 @@ amarr_system_initializer = {
 		name = "Sek"
 		class = "pc_barren"
 		orbit_distance = 25
-		size = 26
+		size = 20
 		has_ring = yes
 		flags = { named_planet }
 
@@ -596,7 +596,7 @@ amarr_system_initializer = {
 		name = "Zorast"
 		class = "pc_gas_giant"
 		orbit_distance = 30
-		size = 59
+		size = 15
 		has_ring = yes
 		flags = { named_planet }
 
@@ -619,7 +619,7 @@ amarr_system_initializer = {
 		name = "Nemantizor"
 		class = "pc_toxic"
 		orbit_distance = 160
-		size = 32
+		size = 25
 		has_ring = yes
 		flags = { named_planet }
 
@@ -642,7 +642,7 @@ amarr_system_initializer = {
 		name = "Oris"
 		class = "pc_continental"
 		orbit_distance = 84
-		size = 196
+		size = 28
 		has_ring = yes
 		flags = { named_planet }
 
@@ -669,7 +669,7 @@ amarr_system_initializer = {
 		name = "Derdainys"
 		class = "pc_gas_giant"
 		orbit_distance = 173
-		size = 75
+		size = 17
 		has_ring = yes
 		flags = { named_planet }
 
