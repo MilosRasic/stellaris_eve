@@ -99,13 +99,13 @@ regions.forEach(region => {
 			Object.keys(systemData.stargates).forEach(key => {
 				const dest = systemData.stargates[key].destination;
 
+				gateToSystemMap[key] = systemData.solarSystemID;
+
 				if (addedHyperlanes[dest+'_'+key]) {
 					return;
 				}
 
 				hyperlanes.push([key, systemData.stargates[key].destination+'']);
-
-				gateToSystemMap[key] = systemData.solarSystemID;
 
 				addedHyperlanes[key+'_'+dest] = true;
 			});	
@@ -121,8 +121,12 @@ map.forEach((line, index) => {
 	}
 });
 
+console.log(hyperlanes);
+console.log(gateToSystemMap);
+
 hyperlanes.forEach(hyperlane => {
-	addHyperlane(gateToSystemMap[hyperlane[0]], gateToSystemMap[hyperlane[1]]);
+	console.log(hyperlane);
+	addHyperlane(gateToSystemMap[hyperlane[0]+''], gateToSystemMap[hyperlane[1]+'']+'');
 });
 
 map.push('}');
