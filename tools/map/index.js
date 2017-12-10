@@ -30,8 +30,14 @@ function addHyperlane(from, to) {
 	map.push(`\tadd_hyperlane = { from = "${from}" to = "${to}" }`);
 }
 
-function updateCoordinates(line, ratio) {
-	return line.replace(/[xy]\s=\s([-?][\d+])\s/g, match => math.multiply(math.bignumber(match) * ratio));
+function updateCoordinates(line, ratios) {
+	return line.replace(/[xy]\s=\s-?\d+\s/g, match => {
+		const matchSplit = match.trim().split(' = ');
+
+		matchSplit[1] = math.multiply(math.bignumber(matchSplit[1]), ratios[matchSplit[0]]).round(0).toString();
+
+		return matchSplit.join(' = ')+' ';
+	});
 }
 
 const regions = fs.readdirSync('fsd/universe/eve');
@@ -74,6 +80,10 @@ regions.forEach(region => {
 
 	const constellations = fs.readdirSync(regionPath);
 
+	const regionYaml = fs.readFileSync(regionPath+'/region.staticdata');
+
+	const regionData = yaml.load(regionYaml);
+
 	constellations.forEach(constellation => {
 		if (constellation == 'region.staticdata') {
 			return;
@@ -82,6 +92,10 @@ regions.forEach(region => {
 		const constellationPath = regionPath+'/'+constellation;
 
 		const systems = fs.readdirSync(constellationPath);
+
+		const constellationYaml = fs.readFileSync(constellationPath+'/constellation.staticdata');
+
+		const constellationData = yaml.load(constellationYaml);
 
 		systems.forEach(system => {
 			if (system == 'constellation.staticdata') {
@@ -92,9 +106,12 @@ regions.forEach(region => {
 
 			const systemData = yaml.load(systemYaml);
 
-			addSystem(systemData.solarSystemID, system, systemData.center[0], systemData.center[1]);
+			const x = regionData.center[0] + constellationData.center[0] + systemData.center[0];
+			const y = regionData.center[2] + constellationData.center[2] + systemData.center[2];
 
-			updateExtremes(systemData.center[0], systemData.center[1]);
+			addSystem(systemData.solarSystemID, system, x, y);
+
+			updateExtremes(x, y);
 
 			Object.keys(systemData.stargates).forEach(key => {
 				const dest = systemData.stargates[key].destination;
@@ -113,19 +130,18 @@ regions.forEach(region => {
 	});
 });
 
-const coordinateConversionRatio = math.divide(math.bignumber(499), math.bignumber(Math.max(Math.abs(extremes.minX), Math.abs(extremes.maxX), Math.abs(extremes.minY), Math.abs(extremes.maxY))));
+const ratios = {
+	x: math.divide(math.bignumber(499), math.bignumber(Math.max(Math.abs(extremes.minX), Math.abs(extremes.maxX)))),
+	y: math.divide(math.bignumber(499), math.bignumber(Math.max(Math.abs(extremes.minY), Math.abs(extremes.maxY)))),
+};
 
 map.forEach((line, index) => {
 	if (line.startsWith('\tsystem')) {
-		map[index] = updateCoordinates(line, coordinateConversionRatio);
+		map[index] = updateCoordinates(line, ratios);
 	}
 });
 
-console.log(hyperlanes);
-console.log(gateToSystemMap);
-
 hyperlanes.forEach(hyperlane => {
-	console.log(hyperlane);
 	addHyperlane(gateToSystemMap[hyperlane[0]+''], gateToSystemMap[hyperlane[1]+'']+'');
 });
 
