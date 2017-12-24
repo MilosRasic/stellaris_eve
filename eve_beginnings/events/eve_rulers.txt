@@ -1,0 +1,85 @@
+namespace = eve_ruler
+
+country_event = {
+	id = eve_ruler.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		species = { is_species = "Minmatar" }
+	}
+
+	immediate = {
+		create_leader = {
+			type = admiral
+			species = From
+			skill = From
+			name = "NAME_Ruler_Minmatar"
+			traits = {
+				trait = leader_trait_aggressive
+			}
+		}
+
+		last_created_leader = {
+			set_is_female = no
+			change_leader_portrait = "brutor_male"
+		}
+	}
+}
+
+country_event = {
+	id = eve_ruler.2
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		species = { is_species = "Caldari" }
+	}
+
+	immediate = {
+		create_leader = {
+			type = governor
+			species = From
+			skill = From
+			name = "NAME_Ruler_Caldari"
+			traits = {
+				trait = leader_trait_intellectual
+			}
+		}
+
+		last_created_leader = {
+			set_is_female = no
+			change_leader_portrait = "civire_male"
+		}
+	}
+}
+
+country_event = {
+	id = eve_ruler.3
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		species = { is_species = "Gallente" }
+	}
+
+	immediate = {
+		create_leader = {
+			type = governor
+			species = From
+			skill = From
+			name = "NAME_Ruler_Gallente"
+			traits = {
+				trait = leader_trait_architectural_interest
+			}
+		}
+
+		last_created_leader = {
+			set_is_female = no
+			change_leader_portrait = "gallente_male"
+		}
+	}
+}

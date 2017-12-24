@@ -58,7 +58,7 @@ minmatar = {
 	}
 	
 	ruler = {
-		name = "Malaetu Shakor"
+		name = "NAME_Ruler_Minmatar"
 		gender = male
 		portrait = "brutor_male"
 		texture = 0
@@ -125,7 +125,7 @@ caldari = {
 	}
 	
 	ruler = {
-		name = "Puok Kossinen"
+		name = "NAME_Ruler_Caldari"
 		gender = male
 		portrait = "civire_male"
 		texture = 0
@@ -195,7 +195,7 @@ gallente = {
 	}
 	
 	ruler = {
-		name = "Jacus Roden"
+		name = "NAME_Ruler_Gallente"
 		gender = male
 		portrait = "gallente_male"
 		texture = 0
@@ -264,7 +264,7 @@ amarr = {
 	}
 	
 	ruler = {
-		name = "Catiz Tash-Murkon"
+		name = "NAME_Ruler_Amarr"
 		gender = female
 		portrait = "khanid_female"
 		texture = 0

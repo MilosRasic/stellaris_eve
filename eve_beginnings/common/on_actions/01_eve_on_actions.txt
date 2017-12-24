@@ -9,3 +9,14 @@ on_game_start = {
 		eve.6
 	}
 }
+
+# Executed when a ruler has been removed
+# From = Previous Ruler
+# This = Country
+on_ruler_removed = {
+	events = {
+		eve_ruler.1
+		eve_ruler.2
+		eve_ruler.3
+	}
+}
