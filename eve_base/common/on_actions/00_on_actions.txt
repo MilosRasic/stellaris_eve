@@ -60,6 +60,7 @@ on_game_start_country = {
 	events = {
 		game_start.10
 		syndaw.101 # servitor morale
+		eve_start.1
 	}
 }
 

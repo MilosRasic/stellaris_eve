@@ -1,0 +1,30 @@
+warfare_minmatar = {
+	icon = "gfx/interface/icons/combat_stats/combat_stat_damage_kinetic.dds"
+	weapon_type_kinetic_weapon_damage_mult = 0.1
+	weapon_type_explosive_weapon_damage_mult = 0.1
+	ship_combat_speed_mult = 0.1
+	ship_armor_mult = 0.1
+	ship_shield_hp_mult = 0.1
+}
+
+warfare_caldari = {
+	icon = "gfx/interface/icons/combat_stats/combat_stat_damage_explosive.dds"
+	weapon_type_explosive_weapon_damage_mult = 0.15
+	weapon_type_kinetic_weapon_damage_mult = 0.1
+	ship_weapon_range_mult = 0.5
+	ship_shield_hp_mult = 0.2
+}
+
+warfare_gallente = {
+	icon = "gfx/interface/icons/combat_stats/combat_stat_damage_strike_craft.dds"
+	weapon_type_strike_craft_weapon_damage_mult = 0.15
+	weapon_type_kinetic_weapon_damage_mult = 0.15
+	ship_armor_mult = 0.2
+}
+
+warfare_amarr = {
+	icon = "gfx/interface/icons/combat_stats/combat_stat_damage_energy.dds"
+	weapon_type_energy_weapon_damage_mult = 0.15
+	weapon_type_explosive_weapon_damage_mult = 0.15
+	ship_armor_mult = 0.2
+}

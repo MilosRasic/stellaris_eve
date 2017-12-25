@@ -1,0 +1,30 @@
+namespace = eve_start
+
+country_event = {
+	id = eve_start.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		every_country = {
+			limit = { has_country_flag = minmatar }
+			add_modifier = { modifier = "warfare_minmatar"  }	
+		}
+
+		every_country = {
+			limit = { has_country_flag = caldari }
+			add_modifier = { modifier = "warfare_caldari"  }	
+		}
+
+		every_country = {
+			limit = { has_country_flag = gallente }
+			add_modifier = { modifier = "warfare_gallente"  }	
+		}
+
+		every_country = {
+			limit = { has_country_flag = amarr }
+			add_modifier = { modifier = "warfare_amarr"  }	
+		}
+	}
+}
