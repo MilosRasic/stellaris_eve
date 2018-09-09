@@ -5,4 +5,4 @@ tags={
 }
 picture="eve.jpg"
 remote_file_id="1217130762"
-supported_version="1.9"
+supported_version="2.1.*"

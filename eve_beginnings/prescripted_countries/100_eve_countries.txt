@@ -42,7 +42,7 @@ minmatar = {
 	
 	empire_flag = {
 		icon= {
-			category = "eve_online"
+			category = "various"
 			file = "flag_eve_online_04.dds"
 		}
 		background= {
@@ -109,7 +109,7 @@ caldari = {
 	
 	empire_flag = {
 		icon= {
-			category = "eve_online"
+			category = "various"
 			file = "flag_eve_online_02.dds"
 		}
 		background= {
@@ -179,7 +179,7 @@ gallente = {
 	
 	empire_flag = {
 		icon= {
-			category = "eve_online"
+			category = "various"
 			file = "flag_eve_online_03.dds"
 		}
 		background= {
@@ -248,7 +248,7 @@ amarr = {
 	
 	empire_flag = {
 		icon= {
-			category = "eve_online"
+			category = "various"
 			file = "flag_eve_online_01.dds"
 		}
 		background= {

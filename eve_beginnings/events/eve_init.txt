@@ -46,7 +46,7 @@ event = {
 				}
 				flag = {
 					icon = {
-						category = "eve_online"
+						category = "various"
 						file = "flag_eve_online_14.dds"
 					}
 					background= {
@@ -184,7 +184,7 @@ event = {
 				}
 				flag = {
 					icon = {
-						category = "eve_online"
+						category = "various"
 						file = "flag_eve_online_10.dds"
 					}
 					background= {
@@ -308,7 +308,7 @@ event = {
 				}
 				flag = {
 					icon = {
-						category = "eve_online"
+						category = "various"
 						file = "flag_eve_online_05.dds"
 					}
 					background= {
@@ -431,7 +431,7 @@ event = {
 				}
 				flag = {
 					icon = {
-						category = "eve_online"
+						category = "various"
 						file = "flag_eve_online_11.dds"
 					}
 					background= {

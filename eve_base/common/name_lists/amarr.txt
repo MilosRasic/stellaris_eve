@@ -17,8 +17,6 @@ amarr = {
 		}
 
 		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
 	}
 
 	ship_class_names = {

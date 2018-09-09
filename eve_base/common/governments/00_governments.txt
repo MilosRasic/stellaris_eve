@@ -10,6 +10,7 @@
 #	heir_title_female = HT_CROWN_PRINCESS	# translation tag for female heir's title
 #	use_regnal_names = yes / no				# default: no
 #	dynastic_last_names = yes / no			# default: no
+#	should_force_rename = yes / no			# default: no - if set to yes, empires changing to or from this government will be renamed even if authority type does not change
 #	
 #	election_candidates = {					# scriptable value to weight election candidates for oligarchic elections, scope: leader
 #		modifier = {
@@ -194,6 +195,8 @@ gov_divine_empire = {
 
 	use_regnal_names = yes
 	dynastic_last_names = no
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -209,6 +212,8 @@ gov_divine_empire = {
 gov_holy_tribunal = {
 	ruler_title = RT_HIGH_INQUISITOR
 	ruler_title_female = RT_HIGH_INQUISITOR_FEMALE
+	
+	should_force_rename = yes
 
 	election_candidates = {
 		modifier = {
@@ -236,6 +241,8 @@ gov_holy_tribunal = {
 gov_megachurch = {
 	ruler_title = RT_HALLOWED_COMPTROLLER
 	ruler_title_female = RT_HALLOWED_COMPTROLLER_FEMALE
+	
+	should_force_rename = yes
 
 	election_candidates = {
 		modifier = {
@@ -437,6 +444,8 @@ gov_martial_empire = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -452,6 +461,10 @@ gov_martial_empire = {
 gov_martial_dictatorship = {
 	ruler_title = RT_IMPERATOR
 	ruler_title_female = RT_IMPERATRIX
+	
+	should_force_rename = yes
+	
+	leader_class = admiral 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -481,6 +494,10 @@ gov_martial_dictatorship = {
 gov_war_council = {
 	ruler_title = RT_WARLORD
 	ruler_title_female = RT_WARLORD_FEMALE
+	
+	should_force_rename = yes
+	
+	leader_class = admiral 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -508,8 +525,12 @@ gov_war_council = {
 
 # Assembly of Clans
 gov_assembly_of_clans = {
-	ruler_title = RT_PRIME_MINISTER
-	ruler_title_female = RT_PRIME_MINISTER_FEMALE
+	ruler_title = RT_CLAN_SPEAKER
+	ruler_title_female = RT_CLAN_SPEAKER_FEMALE
+	
+	should_force_rename = yes
+	
+	leader_class = admiral 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -539,7 +560,11 @@ gov_assembly_of_clans = {
 gov_citizen_stratocracy = {
 	ruler_title = RT_STRATEGOS
 	ruler_title_female = RT_STRATEGOS_FEMALE
-
+	
+	should_force_rename = yes
+	
+	leader_class = admiral 	# Initial ruler will become this if elected out of office
+	
 	election_candidates = {
 		modifier = {
 			add = 100
@@ -568,6 +593,8 @@ gov_citizen_stratocracy = {
 gov_citizen_republic = {
 	ruler_title = RT_CONSUL
 	ruler_title_female = RT_CONSUL_FEMALE
+	
+	should_force_rename = yes
 
 	election_candidates = {
 		modifier = {
@@ -775,6 +802,8 @@ gov_celestial_empire = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -907,6 +936,8 @@ gov_illuminated_autocracy = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -922,6 +953,10 @@ gov_illuminated_autocracy = {
 gov_technocratic_dictatorship = {
 	ruler_title = RT_OVERSEER
 	ruler_title_female = RT_OVERSEER_FEMALE
+	
+	should_force_rename = yes
+	
+	leader_class = scientist 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -948,6 +983,10 @@ gov_technocratic_dictatorship = {
 gov_science_directorate = {
 	ruler_title = RT_DIRECTOR_GENERAL
 	ruler_title_female = RT_DIRECTOR_GENERAL_FEMALE
+	
+	should_force_rename = yes
+	
+	leader_class = scientist 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -974,6 +1013,10 @@ gov_science_directorate = {
 gov_rational_consensus = {
 	ruler_title = RT_FIRST_SPEAKER
 	ruler_title_female = RT_FIRST_SPEAKER_FEMALE
+	
+	should_force_rename = yes
+	
+	leader_class = scientist 	# Initial ruler will become this if elected out of office
 
 	election_candidates = {
 		modifier = {
@@ -1007,6 +1050,8 @@ gov_blood_court = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -1022,6 +1067,8 @@ gov_blood_court = {
 gov_purity_order = {
 	ruler_title = RT_LORD_PURIFIER
 	ruler_title_female = RT_LADY_PURIFIER
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_dictatorial
@@ -1037,6 +1084,8 @@ gov_purity_order = {
 gov_purification_committee = {
 	ruler_title = RT_GRAND_ARBITER
 	ruler_title_female = RT_GRAND_ARBITER_FEMALE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_oligarchic
@@ -1052,6 +1101,8 @@ gov_purification_committee = {
 gov_purity_assembly = {
 	ruler_title = RT_PRIME_JUSTICIAR
 	ruler_title_female = RT_PRIME_JUSTICIAR_FEMALE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_democratic
@@ -1074,6 +1125,8 @@ gov_feudal_empire = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -1089,6 +1142,8 @@ gov_feudal_empire = {
 gov_megacorporation = {
 	ruler_title = RT_CEO
 	ruler_title_female = RT_CEO_FEMALE
+	
+	should_force_rename = yes
 
 	election_candidates = {
 		modifier = {
@@ -1125,6 +1180,8 @@ gov_megacorporation = {
 gov_trade_league = {
 	ruler_title = RT_CHAIRMAN
 	ruler_title_female = RT_CHAIRWOMAN
+	
+	should_force_rename = yes
 
 	election_candidates = {
 		modifier = {
@@ -1167,6 +1224,8 @@ gov_enlightened_monarchy = {
 
 	use_regnal_names = yes
 	dynastic_last_names = yes
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_imperial
@@ -1182,6 +1241,8 @@ gov_enlightened_monarchy = {
 gov_elective_monarchy = {
 	ruler_title = RT_HIGH_KING
 	ruler_title_female = RT_HIGH_QUEEN
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_dictatorial
@@ -1193,10 +1254,50 @@ gov_elective_monarchy = {
 	}
 }
 
+# Bandit Kingdom
+gov_bandit_kingdom = {
+	ruler_title = RT_WARLORD
+	
+	should_force_rename = yes
+
+	possible = {
+		OR = {
+			has_authority = auth_imperial
+			has_authority = auth_dictatorial
+		}
+		has_valid_civic = civic_barbaric_despoilers
+	}
+
+	weight = {
+		base = 10000
+	}
+}
+
+# Bandit Commune
+gov_bandit_commune = {
+	ruler_title = RT_WARLORD
+	
+	should_force_rename = yes
+
+	possible = {
+		OR = {
+			has_authority = auth_oligarchic
+			has_authority = auth_democratic
+		}
+		has_valid_civic = civic_barbaric_despoilers
+	}
+
+	weight = {
+		base = 10000
+	}
+}
+
 # Hive Mind
 gov_hive_mind = {
 	ruler_title = RT_HIVE_MIND
 	ruler_title_female = RT_HIVE_MIND_FEMALE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_hive_mind
@@ -1212,6 +1313,8 @@ gov_hive_mind = {
 gov_devouring_swarm = {
 	ruler_title = RT_HIVE_MIND
 	ruler_title_female = RT_HIVE_MIND_FEMALE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_hive_mind
@@ -1226,6 +1329,8 @@ gov_devouring_swarm = {
 # Machine Intelligence
 gov_machine_empire = {
 	ruler_title = RT_CPU
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1239,6 +1344,8 @@ gov_machine_empire = {
 # Terminator
 gov_machine_terminator = {
 	ruler_title = RT_CORE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1253,6 +1360,8 @@ gov_machine_terminator = {
 # Servitor
 gov_machine_servitor = {
 	ruler_title = RT_SUPERVISORY
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1267,6 +1376,8 @@ gov_machine_servitor = {
 # Assimilator
 gov_machine_assimilator = {
 	ruler_title = RT_CONDUIT
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1281,6 +1392,8 @@ gov_machine_assimilator = {
 # Research
 gov_machine_research = {
 	ruler_title = RT_LINK
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1327,6 +1440,8 @@ gov_machine_research = {
 # Industrial
 gov_machine_industrial = {
 	ruler_title = RT_HUB
+	
+	should_force_rename = yes
 
 	possible = {
 		has_authority = auth_machine_intelligence
@@ -1376,6 +1491,8 @@ gov_machine_industrial = {
 gov_stagnant_ascendancy = {
 	ruler_title = RT_EMPEROR
 	ruler_title_female = RT_EMPRESS
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_lethargic_leadership
@@ -1391,6 +1508,8 @@ gov_stagnant_ascendancy = {
 gov_awakened_ascendancy = {
 	ruler_title = RT_EMPEROR
 	ruler_title_female = RT_EMPRESS
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_revanchist_fervor
@@ -1406,6 +1525,8 @@ gov_awakened_ascendancy = {
 gov_custodian_matrix = {
 	ruler_title = RT_CUSTODIAN
 	ruler_title_female = RT_CUSTODIAN
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_machine_remnants
@@ -1421,6 +1542,8 @@ gov_custodian_matrix = {
 gov_berserker_machine = {
 	ruler_title = RT_CUSTODIAN
 	ruler_title_female = RT_CUSTODIAN
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_awakened_machine
@@ -1437,6 +1560,8 @@ gov_galactic_defense_unit = {
 	ruler_title = RT_ERROR
 	ruler_title_female = RT_ERROR
 
+	should_force_rename = yes
+	
 	possible = {
 		has_valid_civic = civic_awakened_machine
 		has_valid_civic = civic_final_defense_protocols
@@ -1451,6 +1576,8 @@ gov_galactic_defense_unit = {
 gov_tribal_society = {
 	ruler_title = RT_KING
 	ruler_title_female = RT_QUEEN
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_secret_of_fire
@@ -1466,6 +1593,8 @@ gov_tribal_society = {
 gov_feudal_realms = {
 	ruler_title = RT_KING
 	ruler_title_female = RT_QUEEN
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_landed_nobility
@@ -1481,6 +1610,8 @@ gov_feudal_realms = {
 gov_fragmented_nation_states = {
 	ruler_title = RT_SECRETARY
 	ruler_title_female = RT_SECRETARY_FEMALE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_increasing_urbanization
@@ -1495,6 +1626,8 @@ gov_fragmented_nation_states = {
 # Curator Enclave
 gov_curator_enclave = {
 	ruler_title = RT_HIGH_CURATOR
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_ancient_preservers
@@ -1508,6 +1641,8 @@ gov_curator_enclave = {
 # Trader Enclave
 gov_trader_enclave = {
 	ruler_title = RT_HIGH_TRADER
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_trading_conglomerate
@@ -1521,6 +1656,8 @@ gov_trader_enclave = {
 # Artist Enclave
 gov_artist_enclave = {
 	ruler_title = RT_HIGH_ARTIST
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_artist_collective
@@ -1531,9 +1668,71 @@ gov_artist_enclave = {
 	}
 }
 
+# Marauder Clans
+gov_marauder_clans = {
+	ruler_title = RT_RELUCTANT_EMISSARY
+	
+	should_force_rename = yes
+
+	possible = {
+		has_civic = civic_anarcho_tribalism
+	}
+
+	weight = {
+		base = 100000
+	}
+}
+
+# Marauder Khanate
+gov_marauder_khanate = {
+	ruler_title = RT_GREAT_KHAN
+	
+	should_force_rename = yes
+
+	possible = {
+		has_civic = civic_great_khans_vision
+	}
+
+	weight = {
+		base = 100000
+	}
+}
+
+# Diadochi
+gov_diadochi = {
+	ruler_title = RT_KHAN
+	
+	should_force_rename = yes
+
+	possible = {
+		has_civic = civic_diadochi
+	}
+
+	weight = {
+		base = 100000
+	}
+}
+
+# Successor Khanate
+gov_successor_khanate = {
+	ruler_title = RT_KHAN
+	
+	should_force_rename = yes
+
+	possible = {
+		has_civic = civic_great_khans_legacy
+	}
+
+	weight = {
+		base = 100000
+	}
+}
+
 # Military Order (Sentinels)
 gov_military_order = {
 	ruler_title = RT_GRAND_MASTER
+	
+	should_force_rename = yes
 
 	possible = {
 		has_valid_civic = civic_military_order
@@ -1547,6 +1746,8 @@ gov_military_order = {
 # AI Crisis
 gov_ancient_machine_intelligence = {
 	ruler_title = RT_CORE_DIRECTIVE
+	
+	should_force_rename = yes
 
 	possible = {
 		has_civic = civic_ancient_machine_intelligence
@@ -1560,6 +1761,8 @@ gov_ancient_machine_intelligence = {
 # fallback
 gov_fallback = {
 	ruler_title = RT_KING
+	
+	should_force_rename = yes
 
 	possible = {
 		always = yes

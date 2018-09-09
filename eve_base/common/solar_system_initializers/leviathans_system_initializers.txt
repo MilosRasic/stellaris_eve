@@ -8,7 +8,10 @@ guardians_curator_init_01 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			has_leviathans = yes
+			OR = {
+				has_leviathans = yes
+				has_distar = yes
+			}
 			add = 100
 		}
 		modifier = {
@@ -16,9 +19,9 @@ guardians_curator_init_01 = {
 			is_fe_cluster = yes
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -124,7 +127,10 @@ guardians_curator_init_02 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			has_leviathans = yes
+			OR = {
+				has_leviathans = yes
+				has_distar = yes
+			}
 			add = 100
 		}
 		modifier = {
@@ -132,9 +138,9 @@ guardians_curator_init_02 = {
 			is_fe_cluster = yes
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -232,7 +238,10 @@ guardians_trader_init_01 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			has_leviathans = yes
+			OR = {
+				has_leviathans = yes
+				has_distar = yes
+			}
 			add = 100
 		}
 		modifier = {
@@ -240,9 +249,9 @@ guardians_trader_init_01 = {
 			is_fe_cluster = yes
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -370,7 +379,10 @@ guardians_trader_init_02 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			has_leviathans = yes
+			OR = {
+				has_leviathans = yes
+				has_distar = yes
+			}
 			add = 100
 		}
 		modifier = {
@@ -378,9 +390,9 @@ guardians_trader_init_02 = {
 			is_fe_cluster = yes
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -442,8 +454,8 @@ guardians_trader_init_02 = {
 					species = last_created
 					flag = {
 						icon = {
-							category = "eve_online"
-							file = "syndicate.dds"
+							category = "various"
+							file = "flag_eve_online_10.dds"
 						}
 						background = {
 							category = "backgrounds"
@@ -521,17 +533,19 @@ guardians_init_stellarites = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+		modifier = {
+			factor = 0
+			is_bottleneck_system = yes
+		}
 	}
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 	
 	flags = { guardians_stellarite_system guardian hostile_system }
-	
-	asteroids_distance = { min = 30 max = 120 }
 	
 	planet = {
 		count = 1
@@ -611,9 +625,13 @@ guardians_init_dragon = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+		modifier = {
+			factor = 0
+			is_bottleneck_system = yes
+		}
 	}
 
 	max_instances = 1
@@ -788,9 +806,13 @@ guardians_init_horror = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+		modifier = {
+			factor = 0
+			is_bottleneck_system = yes
+		}
 	}
 
 	max_instances = 1
@@ -810,7 +832,10 @@ guardians_init_horror = {
 guardians_init_dreadnought = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
-	asteroids_distance = 50
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 50
+	}
 	
 	flags = { guardians_dreadnought_system guardian hostile_system }
 	
@@ -828,9 +853,13 @@ guardians_init_dreadnought = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+		modifier = {
+			factor = 0
+			is_bottleneck_system = yes
+		}
 	}
 
 	max_instances = 1
@@ -1170,7 +1199,10 @@ guardians_init_dreadnought = {
 guardians_init_hive = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
-	asteroids_distance = 160
+	asteroid_belt = {
+		type = crystal_asteroid_belt
+		radius = 160
+	}
 	
 	flags = { guardians_hive_system guardian hostile_system }
 	
@@ -1188,9 +1220,9 @@ guardians_init_hive = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -1371,9 +1403,9 @@ guardians_init_technosphere = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -1459,7 +1491,7 @@ guardians_init_technosphere = {
 						set_aggro_range_measure_from = self
 						set_aggro_range = 100
 						save_global_event_target_as = technosphere_ship
-				 	}
+					}
 				}
 			}
 		}
@@ -1485,9 +1517,9 @@ guardians_init_fortress = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
@@ -1668,8 +1700,8 @@ guardians_init_fortress = {
 						set_formation_scale = 0.5
 						set_location = {
 							target = PREV
-							distance = 110
-							angle = 110
+							distance = 25
+							angle = 150
 						}
 						set_fleet_flag = fortress_fleet
 						save_global_event_target_as = fortress_fleet
@@ -1727,9 +1759,9 @@ guardians_init_wraith = {
 			}
 		}
 		modifier = {
-            factor = 0
-            has_star_flag = empire_cluster
-        }
+			factor = 0
+			has_star_flag = empire_cluster
+		}
 	}
 
 	max_instances = 1
