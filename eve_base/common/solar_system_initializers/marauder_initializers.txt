@@ -73,7 +73,7 @@ marauder_1_1 = {
 				save_global_event_target_as = marauder_country_1
 				set_country_flag = marauder_1
 				set_name = "Angel Cartel"
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
+				create_ship_design = { design = "NAME_Angel_Starbase" }
 				add_ship_design = last_created_design
 			}
 			create_fleet = {
@@ -81,7 +81,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -96,7 +96,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -111,7 +111,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -126,7 +126,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -141,7 +141,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -156,7 +156,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -171,7 +171,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -186,7 +186,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -202,7 +202,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Angel_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -243,7 +243,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -268,7 +268,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -308,7 +308,7 @@ marauder_1_1 = {
 						set_owner = event_target:marauder_country_1
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Angel_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -334,7 +334,7 @@ marauder_1_1 = {
 							count = 22
 							create_ship = {
 								name = random
-								design = "NAME_Outrider"
+								design = "NAME_Angel_Corvette"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -342,7 +342,7 @@ marauder_1_1 = {
 							count = 14
 							create_ship = {
 								name = random
-								design = "NAME_Lancer"
+								design = "NAME_Angel_Destroyer"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -350,7 +350,7 @@ marauder_1_1 = {
 							count = 8
 							create_ship = {
 								name = random
-								design = "NAME_Void_Champion"
+								design = "NAME_Angel_Cruiser"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -399,7 +399,7 @@ marauder_1_1 = {
 						set_owner = event_target:marauder_country_1
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Angel_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -425,7 +425,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Angel_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -474,7 +474,7 @@ marauder_1_1 = {
 							count = 12
 							create_ship = {
 								name = random
-								design = "NAME_Outrider"
+								design = "NAME_Angel_Corvette"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -482,7 +482,7 @@ marauder_1_1 = {
 							count = 6
 							create_ship = {
 								name = random
-								design = "NAME_Lancer"
+								design = "NAME_Angel_Destroyer"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -490,7 +490,7 @@ marauder_1_1 = {
 							count = 3
 							create_ship = {
 								name = random
-								design = "NAME_Void_Champion"
+								design = "NAME_Angel_Cruiser"
 								graphical_culture = "pirate_01"
 							}
 						}
@@ -606,7 +606,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -631,7 +631,7 @@ marauder_1_1 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -675,7 +675,7 @@ marauder_1_1 = {
 						set_owner = event_target:marauder_country_1
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Angel_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -730,7 +730,7 @@ marauder_1_2 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -745,7 +745,7 @@ marauder_1_2 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -760,7 +760,7 @@ marauder_1_2 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Angel_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -784,7 +784,7 @@ marauder_1_2 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Angel_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -792,7 +792,7 @@ marauder_1_2 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Angel_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -800,7 +800,7 @@ marauder_1_2 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Angel_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -868,7 +868,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -883,7 +883,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Angel_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -898,7 +898,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -913,7 +913,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -928,7 +928,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -943,7 +943,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Angel_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -958,7 +958,7 @@ marauder_1_3 = {
 					set_owner = event_target:marauder_country_1
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Angel_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -982,7 +982,7 @@ marauder_1_3 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Angel_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -990,7 +990,7 @@ marauder_1_3 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Angel_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -998,7 +998,7 @@ marauder_1_3 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Angel_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1130,7 +1130,7 @@ marauder_2_1 = {
 				save_global_event_target_as = marauder_country_2
 				set_country_flag = marauder_2
 				set_name = "Blood Raider Covenant"
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
+				create_ship_design = { design = "NAME_Blood_Raider_Starbase" }
 				add_ship_design = last_created_design
 			}
 			create_fleet = {
@@ -1138,7 +1138,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1153,7 +1153,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1168,7 +1168,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1183,7 +1183,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1198,7 +1198,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1213,7 +1213,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1228,7 +1228,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1243,7 +1243,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1259,7 +1259,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1274,7 +1274,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1289,7 +1289,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1304,7 +1304,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1319,7 +1319,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1334,7 +1334,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1424,7 +1424,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Blood_Raider_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -1503,7 +1503,7 @@ marauder_2_1 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Blood_Raider_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1511,7 +1511,7 @@ marauder_2_1 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Blood_Raider_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1519,7 +1519,7 @@ marauder_2_1 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Blood_Raider_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1593,7 +1593,7 @@ marauder_2_1 = {
 						count = 12
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Blood_Raider_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1601,7 +1601,7 @@ marauder_2_1 = {
 						count = 6
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Blood_Raider_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1609,7 +1609,7 @@ marauder_2_1 = {
 						count = 3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Blood_Raider_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1642,7 +1642,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Blood_Raider_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -1674,7 +1674,7 @@ marauder_2_1 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Blood_Raider_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -1728,7 +1728,7 @@ marauder_2_2 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1743,7 +1743,7 @@ marauder_2_2 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1758,7 +1758,7 @@ marauder_2_2 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Blood_Raider_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -1782,7 +1782,7 @@ marauder_2_2 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Blood_Raider_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1790,7 +1790,7 @@ marauder_2_2 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Blood_Raider_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1798,7 +1798,7 @@ marauder_2_2 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Blood_Raider_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1867,7 +1867,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1882,7 +1882,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Blood_Raider_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1897,7 +1897,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1912,7 +1912,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1927,7 +1927,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1942,7 +1942,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Blood_Raider_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -1957,7 +1957,7 @@ marauder_2_3 = {
 					set_owner = event_target:marauder_country_2
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Blood_Raider_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -1981,7 +1981,7 @@ marauder_2_3 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Blood_Raider_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1989,7 +1989,7 @@ marauder_2_3 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Blood_Raider_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -1997,7 +1997,7 @@ marauder_2_3 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Blood_Raider_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2125,7 +2125,7 @@ marauder_3_1 = {
 				save_global_event_target_as = marauder_country_3
 				set_country_flag = marauder_3
 				set_name = "Guristas"
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
+				create_ship_design = { design = "NAME_Gurista_Starbase" }
 				add_ship_design = last_created_design
 			}
 
@@ -2136,7 +2136,7 @@ marauder_3_1 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Gurista_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2144,7 +2144,7 @@ marauder_3_1 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Gurista_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2152,7 +2152,7 @@ marauder_3_1 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Gurista_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2178,7 +2178,7 @@ marauder_3_1 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Gurista_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2186,7 +2186,7 @@ marauder_3_1 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Gurista_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2194,7 +2194,7 @@ marauder_3_1 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Gurista_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2251,7 +2251,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Gurista_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -2288,14 +2288,14 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
 							target = prev
 							distance = 10
 							angle = random
-						}		
+						}
 					}
 				}
 			}
@@ -2318,7 +2318,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -2371,7 +2371,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -2395,7 +2395,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -2419,7 +2419,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Gurista_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -2485,7 +2485,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -2515,7 +2515,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Gurista_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -2546,7 +2546,7 @@ marauder_3_1 = {
 						set_owner = event_target:marauder_country_3
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Gurista_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -2594,7 +2594,7 @@ marauder_3_2 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Gurista_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2609,7 +2609,7 @@ marauder_3_2 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Gurista_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2624,7 +2624,7 @@ marauder_3_2 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Gurista_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -2648,7 +2648,7 @@ marauder_3_2 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Gurista_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2656,7 +2656,7 @@ marauder_3_2 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Gurista_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2664,7 +2664,7 @@ marauder_3_2 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Gurista_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2733,7 +2733,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Gurista_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2748,7 +2748,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Gurista_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2763,7 +2763,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Gurista_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2778,7 +2778,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Gurista_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2793,7 +2793,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Gurista_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2808,7 +2808,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Gurista_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -2823,7 +2823,7 @@ marauder_3_3 = {
 					set_owner = event_target:marauder_country_3
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Gurista_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -2847,7 +2847,7 @@ marauder_3_3 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Gurista_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2855,7 +2855,7 @@ marauder_3_3 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Gurista_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2863,7 +2863,7 @@ marauder_3_3 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Gurista_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -2991,7 +2991,7 @@ marauder_4_1 = {
 				save_global_event_target_as = marauder_country_4
 				set_country_flag = marauder_4
 				set_name = "Serpentis"
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
+				create_ship_design = { design = "NAME_Serpentis_Starbase" }
 				add_ship_design = last_created_design
 			}
 
@@ -3002,7 +3002,7 @@ marauder_4_1 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Serpentis_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3010,7 +3010,7 @@ marauder_4_1 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Serpentis_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3018,7 +3018,7 @@ marauder_4_1 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Serpentis_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3044,7 +3044,7 @@ marauder_4_1 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Serpentis_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3052,7 +3052,7 @@ marauder_4_1 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Serpentis_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3060,7 +3060,7 @@ marauder_4_1 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Serpentis_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3117,7 +3117,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Serpentis_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -3154,7 +3154,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3184,7 +3184,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3237,7 +3237,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3261,7 +3261,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3285,7 +3285,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Serpentis_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -3351,7 +3351,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3381,7 +3381,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Ancestral_Glory"
+							design = "NAME_Serpentis_Galleon"
 							graphical_culture = "pirate_01"
 						}
 						set_formation_scale = 2
@@ -3412,7 +3412,7 @@ marauder_4_1 = {
 						set_owner = event_target:marauder_country_4
 						create_ship = {
 							name = random
-							design = "NAME_Void_Dwelling"
+							design = "NAME_Serpentis_Dwelling"
 							graphical_culture = "pirate_01"
 						}
 						set_location = {
@@ -3432,7 +3432,7 @@ marauder_4_1 = {
 	}
 	neighbor_system = {
 		distance = { min = 0 max = 50 }
-		initializer = "marauder_4_4"
+		initializer = "marauder_4_3"
 	}
 
 	init_effect = {
@@ -3460,7 +3460,7 @@ marauder_4_2 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Serpentis_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3475,7 +3475,7 @@ marauder_4_2 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Serpentis_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3490,7 +3490,7 @@ marauder_4_2 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Serpentis_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -3514,7 +3514,7 @@ marauder_4_2 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Serpentis_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3522,7 +3522,7 @@ marauder_4_2 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Serpentis_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3530,7 +3530,7 @@ marauder_4_2 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Serpentis_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3576,7 +3576,7 @@ marauder_4_2 = {
 }
 
 # System III
-marauder_4_4 = {
+marauder_4_3 = {
 	class = "rl_standard_stars"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -3599,7 +3599,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Serpentis_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3614,7 +3614,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Void_Dwelling"
+						design = "NAME_Serpentis_Dwelling"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3629,7 +3629,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Serpentis_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3644,7 +3644,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Serpentis_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3659,7 +3659,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Serpentis_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3674,7 +3674,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Warrior_Freehold"
+						design = "NAME_Serpentis_Station"
 						graphical_culture = "pirate_01"
 					}
 					set_location = {
@@ -3689,7 +3689,7 @@ marauder_4_4 = {
 					set_owner = event_target:marauder_country_4
 					create_ship = {
 						name = random
-						design = "NAME_Ancestral_Glory"
+						design = "NAME_Serpentis_Galleon"
 						graphical_culture = "pirate_01"
 					}
 					set_formation_scale = 2
@@ -3713,7 +3713,7 @@ marauder_4_4 = {
 						count = 22
 						create_ship = {
 							name = random
-							design = "NAME_Outrider"
+							design = "NAME_Serpentis_Corvette"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3721,7 +3721,7 @@ marauder_4_4 = {
 						count = 14
 						create_ship = {
 							name = random
-							design = "NAME_Lancer"
+							design = "NAME_Serpentis_Destroyer"
 							graphical_culture = "pirate_01"
 						}
 					}
@@ -3729,7 +3729,7 @@ marauder_4_4 = {
 						count = 8
 						create_ship = {
 							name = random
-							design = "NAME_Void_Champion"
+							design = "NAME_Serpentis_Cruiser"
 							graphical_culture = "pirate_01"
 						}
 					}
