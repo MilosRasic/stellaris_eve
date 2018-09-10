@@ -230,7 +230,7 @@ guardians_curator_init_02 = {
 	}
 }
 
-# ORE
+# Outer Ring Excavations
 guardians_trader_init_01 = {
 	class = random
 	
@@ -293,9 +293,9 @@ guardians_trader_init_01 = {
 				save_event_target_as = GuardiansTradersPlanet
 				set_planet_flag = guardians_traders_planet
 				create_species = {
-					name = "ORE"
-					plural = "ORE"
-					adjective = "ORE"
+					name = "Outer Ring Excavations"
+					plural = "Outer Ring Excavations"
+					adjective = "Outer Ring Excavations"
 					class = HUM
 					portrait = gallente_female_only
 					traits = {
@@ -304,7 +304,7 @@ guardians_trader_init_01 = {
 					#homeworld = this
 				}
 				create_country = {
-					name = "ORE"
+					name = "Outer Ring Excavations"
 					type = enclave
 					authority = "auth_oligarchic"
 					civics = {

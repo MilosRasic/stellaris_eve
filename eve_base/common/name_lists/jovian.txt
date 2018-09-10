@@ -9,16 +9,10 @@ jovian = {
 		research_station = {
 			sequential_name = "%O% Impro Research Center"
 		}
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%O% Jove Navy Outpost"
+		military_station_small = {
+			"Jove Platform"
 		}
-
-		military_station_small = { }
-		military_station_medium = { }
-		military_station_large = { }
 	}
 
 	ship_class_names = {
@@ -35,7 +29,15 @@ jovian = {
 		}
 		
 		battleship = {
+			Praxis
+		}
+
+		titan = {
 			Eidolon
+		}
+
+		colossus = {
+			"Jove Titan"
 		}
 		
 		science = {
@@ -47,6 +49,7 @@ jovian = {
 		}
 		
 		constructor = {
+			"Jove Mothership"
 		}
 
 		transport = {

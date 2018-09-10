@@ -9,16 +9,10 @@
 		research_station = {
 			sequential_name = "%O% Eifyr Research Center"
 		}
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%O% Rep. Fleet Outpost"
+		military_station_small = {
+			Warrior Valkyrie Berserker Bouncer
 		}
-
-		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
 	}
 
 	ship_class_names = {
@@ -35,7 +29,15 @@
 		}
 		
 		battleship = {
-			Typhoon Maelstrom Tempest Panther Vargur Nidhoggur Naglfar Lif Hel Ragnarok Hurricane Tornado Cyclone Sleipnir Claymore
+			Typhoon Maelstrom Tempest Panther Vargur Hurricane Tornado Cyclone Sleipnir Claymore
+		}
+
+		titan = {
+			Nidhoggur Naglfar Lif
+		}
+
+		colossus = {
+			Ragnarok Hel
 		}
 		
 		science = {
@@ -52,6 +54,10 @@
 
 		transport = {
 			Wreathe Mammoth Hoarder Prowler Mastodon
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

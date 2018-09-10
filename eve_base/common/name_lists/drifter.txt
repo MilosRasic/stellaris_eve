@@ -5,14 +5,9 @@ drifter = {
 	ship_names = {
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = { }
 
 		military_station_small = { }
-		military_station_medium = { }
-		military_station_large = { }
 	}
 
 	ship_class_names = {
@@ -31,6 +26,14 @@ drifter = {
 		battleship = {
 			"Drifter Battleship"
 		}
+
+		titan = {
+			"Drifter Mothership"
+		}
+
+		colossus = {
+			"Drifter Titan"
+		}
 		
 		science = {
 			"Circadian Seeker"
@@ -43,6 +46,10 @@ drifter = {
 		}
 
 		transport = {
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

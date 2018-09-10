@@ -17,7 +17,7 @@ minmatar = {
 		trait = "trait_rapid_breeders"
 		trait = "trait_deviants"
 	}
-	
+
 	room = "personality_honorbound_warriors_room"
 	
 	authority = "auth_democratic"
@@ -154,7 +154,7 @@ gallente = {
 		trait = "trait_natural_sociologists"
 		trait = "trait_wasteful"
 	}
-	
+
 	room = "personality_peaceful_traders_room"
 	
 	authority = "auth_democratic"
@@ -223,7 +223,7 @@ amarr = {
 		trait = "trait_communal"
 		trait = "trait_decadent"
 	}
-	
+
 	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"

@@ -9,14 +9,10 @@ amarr = {
 		research_station = {
 			sequential_name = "%O% Carthum Outpost"
 		}
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%O% Imp. Navy Outpost"
+		military_station_small = {
+			Curator Infiltrator Praetor Acolyte
 		}
-
-		military_station_small = { Astrahus }
 	}
 
 	ship_class_names = {
@@ -33,7 +29,15 @@ amarr = {
 		}
 		
 		battleship = {
-			Armageddon Abaddon Apocalypse Redeemer Paladin Archon Revelation Apostle Aeon Avatar Oracle Harbinger Prophecy Absolution Damnation
+			Armageddon Abaddon Apocalypse Redeemer Paladin Oracle Harbinger Prophecy Absolution Damnation
+		}
+
+		titan = {
+			Archon Revelation Apostle
+		}
+
+		colossus = {
+			Avatar Aeon
 		}
 		
 		science = {
@@ -50,6 +54,10 @@ amarr = {
 
 		transport = {
 			Bestower Sigil Prorator Impel
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

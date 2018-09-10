@@ -5,14 +5,10 @@ intaki = {
 	ship_names = {
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = { }
-
-		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
+		military_station_small = {
+			Hobgoblin Hammerhead Ogre Garde
+		}
 	}
 
 	ship_class_names = {
@@ -29,7 +25,15 @@ intaki = {
 		}
 		
 		battleship = {
-			Dominix Hyperion Megathron Sin Kronos Thanatos Moros Ninazu Nyx Erebus Talos Brutix Myrmidon Eos Astarte
+			Dominix Hyperion Megathron Sin Kronos Talos Brutix Myrmidon Eos Astarte
+		}
+
+		titan = {
+			Thanatos Moros Ninazu
+		}
+
+		colossus = {
+			Erebus Nyx
 		}
 		
 		science = {
@@ -46,6 +50,10 @@ intaki = {
 
 		transport = {
 			Nereus Miasmos Kryos Epithal Iteron Viator Occator
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

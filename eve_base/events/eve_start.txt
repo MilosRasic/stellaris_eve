@@ -1,5 +1,6 @@
 namespace = eve_start
 
+# set empire modifiers
 country_event = {
 	id = eve_start.1
 	hide_window = yes
@@ -25,6 +26,96 @@ country_event = {
 		every_country = {
 			limit = { has_country_flag = amarr }
 			add_modifier = { modifier = "warfare_amarr"  }	
+		}
+	}
+}
+
+# set marauder flags
+country_event = {
+	id = eve_start.2
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		every_country = {
+			limit = { has_country_flag = marauder_1 }
+			change_country_flag = {
+				icon = {
+					category = "various"
+					file = "flag_eve_online_17.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors ={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+
+		every_country = {
+			limit = { has_country_flag = marauder_2 }
+			change_country_flag = {
+				icon = {
+					category = "various"
+					file = "flag_eve_online_18.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors ={
+					"red"
+					"red"
+					"null"
+					"null"
+				}
+			}
+		}
+
+		every_country = {
+			limit = { has_country_flag = marauder_3 }
+			change_country_flag = {
+				icon = {
+					category = "various"
+					file = "flag_eve_online_19.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors ={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+
+		every_country = {
+			limit = { has_country_flag = marauder_4 }
+			change_country_flag = {
+				icon = {
+					category = "various"
+					file = "flag_eve_online_20.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors ={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
 		}
 	}
 }

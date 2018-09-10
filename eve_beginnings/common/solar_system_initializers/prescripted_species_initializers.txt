@@ -4,7 +4,11 @@ pator_system_initializer = {
 	name = "Pator"
 	
 	class = "sc_k"
-	asteroids_distance = { min = 100 max = 200 }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = { min = 100 max = 200 }
+	}
 
 	usage = custom_empire
 
@@ -183,7 +187,11 @@ caldari_system_initializer = {
 	name = "New Caldari"
 	
 	class = "sc_g"
-	asteroids_distance = { min = 100 max = 200 }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = { min = 100 max = 200 }
+	}
 
 	usage = custom_empire
 
@@ -297,7 +305,11 @@ luminaire_system_initializer = {
 	name = "Luminaire"
 	
 	class = "sc_m"
-	asteroids_distance = { min = 100 max = 200 }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = { min = 100 max = 200 }
+	}
 
 	usage = custom_empire
 
@@ -496,7 +508,11 @@ amarr_system_initializer = {
 	name = "Amarr"
 	
 	class = "sc_k"
-	asteroids_distance = { min = 100 max = 200 }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = { min = 100 max = 200 }
+	}
 
 	usage = custom_empire
 

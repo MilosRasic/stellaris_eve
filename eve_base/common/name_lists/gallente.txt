@@ -9,16 +9,10 @@ gallente = {
 		research_station = {
 			sequential_name = "%O% Chemal Outpost"
 		}
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%O% Fed. Navy Outpost"
+		military_station_small = {
+			Hobgoblin Hammerhead Ogre Garde
 		}
-
-		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
 	}
 
 	ship_class_names = {
@@ -35,7 +29,15 @@ gallente = {
 		}
 		
 		battleship = {
-			Dominix Hyperion Megathron Sin Kronos Thanatos Moros Ninazu Nyx Erebus Talos Brutix Myrmidon Eos Astarte
+			Dominix Hyperion Megathron Sin Kronos Talos Brutix Myrmidon Eos Astarte
+		}
+
+		titan = {
+			Thanatos Moros Ninazu
+		}
+
+		colossus = {
+			Erebus Nyx
 		}
 		
 		science = {
@@ -52,6 +54,10 @@ gallente = {
 
 		transport = {
 			Nereus Miasmos Kryos Epithal Iteron Viator Occator
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

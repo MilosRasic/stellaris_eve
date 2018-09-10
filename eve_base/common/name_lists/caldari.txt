@@ -13,16 +13,10 @@ caldari = {
 		research_station = {
 			sequential_name = "%O% Lai Dai Outpost"
 		}
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			sequential_name = "%O% Navy Logistic Support"
+		military_station_small = {
+			Hornet Vespa Wasp Warden
 		}
-
-		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
 	}
 
 	ship_class_names = {
@@ -39,7 +33,15 @@ caldari = {
 		}
 		
 		battleship = {
-			Raven Rokh Scorpion Widow Golem Chimera Phoenix Wyvern Leviathan Naga Drake Ferox Vulture Nighthawk
+			Raven Rokh Scorpion Widow Golem Naga Drake Ferox Vulture Nighthawk
+		}
+
+		titan = {
+			Chimera Phoenix Minokawa
+		}
+
+		colossus = {
+			Leviathan Wyvern
 		}
 		
 		science = {
@@ -56,6 +58,10 @@ caldari = {
 
 		transport = {
 			Badger Tayra Crane Bustard
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

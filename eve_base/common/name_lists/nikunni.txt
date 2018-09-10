@@ -5,14 +5,11 @@ nikunni = {
 	ship_names = {
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = { }
 
-		military_station_small = { Astrahus }
-		military_station_medium = { Fortizar }
-		military_station_large = { Keepstar }
+		military_station_small = {
+			Curator Infiltrator Praetor Acolyte
+		}
 	}
 
 	ship_class_names = {
@@ -29,7 +26,15 @@ nikunni = {
 		}
 		
 		battleship = {
-			Armageddon Abaddon Apocalypse Redeemer Paladin Archon Revelation Apostle Aeon Avatar Oracle Harbinger Prophecy Absolution Damnation
+			Armageddon Abaddon Apocalypse Redeemer Paladin Oracle Harbinger Prophecy Absolution Damnation
+		}
+
+		titan = {
+			Archon Revelation Apostle
+		}
+
+		colossus = {
+			Avatar Aeon
 		}
 		
 		science = {
@@ -46,6 +51,10 @@ nikunni = {
 
 		transport = {
 			Bestower Sigil Prorator Impel
+		}
+
+		ion_cannon = {
+			"Ion Cannon"
 		}
 	}
 

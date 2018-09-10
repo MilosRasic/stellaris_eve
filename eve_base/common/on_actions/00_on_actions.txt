@@ -99,6 +99,7 @@ on_game_start_country = {
 		game_start.32
 		game_start.34
 		eve_start.1
+		eve_start.2
 	}
 }
 
